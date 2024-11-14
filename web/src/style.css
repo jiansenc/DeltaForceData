@@ -1,0 +1,53 @@
+@font-face {
+	font-family: 'OPPO Sans Medium'; /* 你可以为字体选择任何名称 */
+	src: url('https://dsfs.oppo.com/store/public/font/OPPOSans-Medium.woff2')
+		format('woff2');
+	font-weight: normal; /* 或 500，根据需要设置 */
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'OPPO Sans Regular'; /* 你可以为字体选择任何名称 */
+	src: url('https://dsfs.oppo.com/store/public/font/OPPOSans-Regular.woff2')
+		format('woff2');
+	font-weight: normal; /* 或 500，根据需要设置 */
+	font-style: normal;
+}
+
+body {
+	--sb-track-color: #c3c3c3;
+	--sb-thumb-color: #13c17c;
+	--sb-size: 6px;
+}
+
+body::-webkit-scrollbar {
+	width: var(--sb-size);
+}
+
+body::-webkit-scrollbar-track {
+	background: var(--sb-track-color);
+	border-radius: 3px;
+}
+
+body::-webkit-scrollbar-thumb {
+	background: var(--sb-thumb-color);
+	border-radius: 3px;
+}
+
+@supports not selector(::-webkit-scrollbar) {
+	body {
+		scrollbar-color: var(--sb-thumb-color) var(--sb-track-color);
+	}
+}
+
+body {
+	font-family: 'OPPO Sans Medium', sans-serif;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+ul {
+	list-style: none;
+}
