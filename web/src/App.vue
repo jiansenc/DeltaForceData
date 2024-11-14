@@ -1,8 +1,12 @@
 <template>
   <div class="deltaForceData">
+
+    <div v-if="backToTopButton" @click="gotop" class=" top">
+      TOP↑
+    </div>
     <div class="ner">
       <div class="search">
-        <h3 class="tt">DeltaForce</h3>
+        <h3 class="tt">小学生DeltaForce</h3>
         <div class="line">
           <input v-model="searchValue" type="text" placeholder="搜索物品名称">
           <div class="sbtn" @click="onsearch">搜索</div>
@@ -50,6 +54,7 @@ import { ref } from 'vue'
 const filteredItems = ref([])
 import Fuse from 'fuse.js'
 
+const backToTopButton = ref(false)
 const vshowloading = ref(false)
 const loadingJsName = ref('')
 const searchValue = ref('')
@@ -57,8 +62,8 @@ let treeList = [
   {
     "name": "道具",
     "children": [
-      { "name": "收集品", "path": "/json/props/collection.json", "type": "collection" },
       { "name": "消耗品", "path": "/json/props/consume.json", "type": "consume" },
+      { "name": "收集品", "path": "/json/props/collection.json", "type": "collection" },
       { "name": "钥匙", "path": "/json/props/key.json", "type": "key" },
       { "name": "曼德尔转", "path": "/json/props/mandel.json", "type": "mandel" }
 
@@ -98,11 +103,26 @@ let treeList = [
 var fuse = {}
 let allData = {}
 let allList = []
+
+window.addEventListener('scroll', () => {
+  if (window.scrollY > 700) { // 调整 100 为您需要的像素值
+    backToTopButton.value = true
+  } else {
+    backToTopButton.value = false
+  }
+});
+
+
+function gotop() {
+  window.scrollTo(0, 0)
+}
 async function loadScript() {
   vshowloading.value = true
   for (let i = 0; i < treeList.length; i++) {
     for (let j = 0; j < treeList[i].children.length; j++) {
+
       let item = treeList[i].children[j]
+
       loadingJsName.value = `正在加载 ${treeList[i].name}-${item.name}`
       let list = await getJsonData(item)
       allData[item.type] = list
@@ -123,10 +143,14 @@ async function loadScript() {
   };
 
   fuse = new Fuse(allList, fuseOptions);
-
+  let first = treeList[0].children[0]
+  changeType(first)
 }
 
 function onsearch() {
+  if (!searchValue.value) {
+    return
+  }
   let result = fuse.search(searchValue.value)
   filteredItems.value = result.map(item => item.item)
 }
@@ -184,6 +208,28 @@ loadScript()
   }
 }
 
+.top {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  box-shadow: 1px 2px 6px #0000007d;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  background-color: #FFFFFF;
+  transition: 0.3s;
+
+  &:hover {
+    background-color: #2364c0;
+    color: #FFFFFF;
+  }
+}
+
 .deltaForceData {
   height: 100vh;
   background-image: linear-gradient(to right, #9bb3c3, #9eb0ca);
@@ -204,6 +250,9 @@ loadScript()
       .tt {
         color: #FFFFFF;
         font-weight: bold;
+        position: absolute;
+        top: 20px;
+        font-size: 24px;
       }
 
       .line {
