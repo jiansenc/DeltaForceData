@@ -30,4 +30,4 @@
 
 ## 预览
 
-[http://www.baidu.com](http://www.baidu.com)
+[https://jiansenc.github.io/DeltaForceData/web/dist/index.html](https://jiansenc.github.io/DeltaForceData/web/dist/index.html)
