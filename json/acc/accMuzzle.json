@@ -1,0 +1,1524 @@
+{
+	"ret": 0,
+	"iRet": 0,
+	"sMsg": "succ",
+	"jData": {
+		"data": {
+			"code": 0,
+			"data": {
+				"list": [
+					{
+						"id": 10674,
+						"objectID": 13130000159,
+						"objectName": "炽火抑制器",
+						"length": 1,
+						"width": 1,
+						"grade": 4,
+						"weight": "0.5",
+						"primaryClass": "acc",
+						"secondClass": "accMuzzle",
+						"secondClassCN": "枪口",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/13130000159.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/p_13130000159.png",
+						"accDetail": {
+							"recoil": 6,
+							"controlSpeed": -1,
+							"quickSeparate": 1,
+							"advantage": {
+								"effectList": [
+									{
+										"value": "后坐力控制+6",
+										"batteryValue": 3,
+										"batteryColor": "green"
+									},
+									{
+										"value": "枪口火光抑制",
+										"batteryValue": 1,
+										"batteryColor": "green"
+									}
+								]
+							},
+							"disadvantage": {
+								"effectList": [
+									{
+										"value": "操控速度-1",
+										"batteryValue": -1,
+										"batteryColor": "red"
+									}
+								]
+							}
+						}
+					},
+					{
+						"id": 10665,
+						"objectID": 13130000160,
+						"objectName": "钛金竞赛制退器",
+						"length": 1,
+						"width": 1,
+						"grade": 4,
+						"weight": "0.75",
+						"primaryClass": "acc",
+						"secondClass": "accMuzzle",
+						"secondClassCN": "枪口",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/13130000160.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/p_13130000160.png",
+						"accDetail": {
+							"recoil": 12,
+							"controlSpeed": -3,
+							"quickSeparate": 1,
+							"advantage": {
+								"effectList": [
+									{
+										"value": "后坐力控制+12",
+										"batteryValue": 6,
+										"batteryColor": "green"
+									}
+								]
+							},
+							"disadvantage": {
+								"effectList": [
+									{
+										"value": "操控速度-3",
+										"batteryValue": -2,
+										"batteryColor": "red"
+									},
+									{
+										"value": "枪焰干扰瞄准视野",
+										"batteryValue": -1,
+										"batteryColor": "red"
+									}
+								]
+							}
+						}
+					},
+					{
+						"id": 10652,
+						"objectID": 13130000164,
+						"objectName": "轻语战术消音器",
+						"length": 1,
+						"width": 1,
+						"grade": 4,
+						"weight": "1.02",
+						"primaryClass": "acc",
+						"secondClass": "accMuzzle",
+						"secondClassCN": "枪口",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/13130000164.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/p_13130000164.png",
+						"accDetail": {
+							"shotDistancePercent": 18,
+							"recoil": 5,
+							"controlSpeed": -5,
+							"controlStable": -4,
+							"quickSeparate": 1,
+							"advantage": {
+								"effectList": [
+									{
+										"value": "有效射程与枪口初速+18%",
+										"batteryValue": 3,
+										"batteryColor": "green"
+									},
+									{
+										"value": "后坐力控制+5",
+										"batteryValue": 3,
+										"batteryColor": "green"
+									},
+									{
+										"value": "枪声抑制效果[弱]",
+										"batteryValue": 2,
+										"batteryColor": "green"
+									}
+								]
+							},
+							"disadvantage": {
+								"effectList": [
+									{
+										"value": "操控速度-5",
+										"batteryValue": -3,
+										"batteryColor": "red"
+									},
+									{
+										"value": "据枪稳定性-4",
+										"batteryValue": -2,
+										"batteryColor": "red"
+									}
+								]
+							}
+						}
+					},
+					{
+						"id": 10678,
+						"objectID": 13130000165,
+						"objectName": "海神消焰器",
+						"length": 1,
+						"width": 1,
+						"grade": 4,
+						"weight": "0.54",
+						"primaryClass": "acc",
+						"secondClass": "accMuzzle",
+						"secondClassCN": "枪口",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/13130000165.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/p_13130000165.png",
+						"accDetail": {
+							"recoil": 7,
+							"quickSeparate": 1,
+							"advantage": {
+								"effectList": [
+									{
+										"value": "后坐力控制+7",
+										"batteryValue": 4,
+										"batteryColor": "green"
+									},
+									{
+										"value": "枪口火光抑制",
+										"batteryValue": 1,
+										"batteryColor": "green"
+									}
+								]
+							}
+						}
+					},
+					{
+						"id": 10679,
+						"objectID": 13130000166,
+						"objectName": "泰坦补偿器",
+						"length": 1,
+						"width": 1,
+						"grade": 4,
+						"weight": "0.73",
+						"primaryClass": "acc",
+						"secondClass": "accMuzzle",
+						"secondClassCN": "枪口",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/13130000166.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/p_13130000166.png",
+						"accDetail": {
+							"recoil": 16,
+							"controlSpeed": -4,
+							"controlStable": -3,
+							"quickSeparate": 1,
+							"advantage": {
+								"effectList": [
+									{
+										"value": "后坐力控制+16",
+										"batteryValue": 8,
+										"batteryColor": "green"
+									}
+								]
+							},
+							"disadvantage": {
+								"effectList": [
+									{
+										"value": "操控速度-4",
+										"batteryValue": -2,
+										"batteryColor": "red"
+									},
+									{
+										"value": "据枪稳定性-3",
+										"batteryValue": -2,
+										"batteryColor": "red"
+									},
+									{
+										"value": "枪焰干扰瞄准视野",
+										"batteryValue": -1,
+										"batteryColor": "red"
+									}
+								]
+							}
+						}
+					},
+					{
+						"id": 10680,
+						"objectID": 13130000167,
+						"objectName": "堡垒水平补偿器",
+						"length": 1,
+						"width": 1,
+						"grade": 4,
+						"weight": "0.57",
+						"primaryClass": "acc",
+						"secondClass": "accMuzzle",
+						"secondClassCN": "枪口",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/13130000167.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/p_13130000167.png",
+						"accDetail": {
+							"recoil": 9,
+							"quickSeparate": 1,
+							"advantage": {
+								"effectList": [
+									{
+										"value": "额外水平后坐力控制",
+										"batteryValue": 3,
+										"batteryColor": "green"
+									},
+									{
+										"value": "额外开火时水平枪身稳定性",
+										"batteryValue": 3,
+										"batteryColor": "green"
+									},
+									{
+										"value": "额外开火时水平视野稳定性",
+										"batteryValue": 2,
+										"batteryColor": "green"
+									}
+								]
+							},
+							"disadvantage": {
+								"effectList": [
+									{
+										"value": "枪焰干扰瞄准视野",
+										"batteryValue": -1,
+										"batteryColor": "red"
+									}
+								]
+							}
+						}
+					},
+					{
+						"id": 10653,
+						"objectID": 13130000168,
+						"objectName": "沙暴垂直补偿器",
+						"length": 1,
+						"width": 1,
+						"grade": 4,
+						"weight": "0.58",
+						"primaryClass": "acc",
+						"secondClass": "accMuzzle",
+						"secondClassCN": "枪口",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/13130000168.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/p_13130000168.png",
+						"accDetail": {
+							"recoil": 9,
+							"quickSeparate": 1,
+							"advantage": {
+								"effectList": [
+									{
+										"value": "额外垂直后坐力控制",
+										"batteryValue": 3,
+										"batteryColor": "green"
+									},
+									{
+										"value": "额外开火时垂直枪身稳定性",
+										"batteryValue": 3,
+										"batteryColor": "green"
+									},
+									{
+										"value": "额外开火时垂直视野稳定性",
+										"batteryValue": 2,
+										"batteryColor": "green"
+									}
+								]
+							},
+							"disadvantage": {
+								"effectList": [
+									{
+										"value": "枪焰干扰瞄准视野",
+										"batteryValue": -1,
+										"batteryColor": "red"
+									}
+								]
+							}
+						}
+					},
+					{
+						"id": 10669,
+						"objectID": 13130000169,
+						"objectName": "死寂消音器",
+						"length": 1,
+						"width": 1,
+						"grade": 4,
+						"weight": "1.21",
+						"primaryClass": "acc",
+						"secondClass": "accMuzzle",
+						"secondClassCN": "枪口",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/13130000169.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/p_13130000169.png",
+						"accDetail": {
+							"shotDistancePercent": 24,
+							"recoil": 8,
+							"controlSpeed": -13,
+							"controlStable": -5,
+							"quickSeparate": 1,
+							"advantage": {
+								"effectList": [
+									{
+										"value": "有效射程与枪口初速+24%",
+										"batteryValue": 4,
+										"batteryColor": "green"
+									},
+									{
+										"value": "枪声抑制程度：高",
+										"batteryValue": 4,
+										"batteryColor": "green"
+									},
+									{
+										"value": "额外单点模式后坐力控制与枪身稳定",
+										"batteryValue": 4,
+										"batteryColor": "green"
+									}
+								]
+							},
+							"disadvantage": {
+								"effectList": [
+									{
+										"value": "操控速度-13",
+										"batteryValue": -7,
+										"batteryColor": "red"
+									},
+									{
+										"value": "据枪稳定性-5",
+										"batteryValue": -3,
+										"batteryColor": "red"
+									},
+									{
+										"value": "连射速度",
+										"batteryValue": -3,
+										"batteryColor": "red"
+									}
+								]
+							}
+						}
+					},
+					{
+						"id": 10675,
+						"objectID": 13130000172,
+						"objectName": "冲锋枪回声消音器",
+						"length": 1,
+						"width": 1,
+						"grade": 4,
+						"weight": "1.03",
+						"primaryClass": "acc",
+						"secondClass": "accMuzzle",
+						"secondClassCN": "枪口",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/13130000172.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/p_13130000172.png",
+						"accDetail": {
+							"shotDistancePercent": 30,
+							"recoil": 7,
+							"controlSpeed": -10,
+							"controlStable": -3,
+							"quickSeparate": 1,
+							"advantage": {
+								"effectList": [
+									{
+										"value": "有效射程与枪口初速+30%",
+										"batteryValue": 5,
+										"batteryColor": "green"
+									},
+									{
+										"value": "后坐力控制+7",
+										"batteryValue": 4,
+										"batteryColor": "green"
+									},
+									{
+										"value": "枪声抑制效果[弱]",
+										"batteryValue": 2,
+										"batteryColor": "green"
+									}
+								]
+							},
+							"disadvantage": {
+								"effectList": [
+									{
+										"value": "操控速度-10",
+										"batteryValue": -5,
+										"batteryColor": "red"
+									},
+									{
+										"value": "据枪稳定性-3",
+										"batteryValue": -2,
+										"batteryColor": "red"
+									}
+								]
+							}
+						}
+					},
+					{
+						"id": 10658,
+						"objectID": 13130000173,
+						"objectName": "PBS俄式消音器",
+						"length": 1,
+						"width": 1,
+						"grade": 4,
+						"weight": "1.1",
+						"primaryClass": "acc",
+						"secondClass": "accMuzzle",
+						"secondClassCN": "枪口",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/13130000173.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/p_13130000173.png",
+						"accDetail": {
+							"recoil": 10,
+							"controlSpeed": -13,
+							"quickSeparate": 1,
+							"advantage": {
+								"effectList": [
+									{
+										"value": "后坐力控制+10",
+										"batteryValue": 2,
+										"batteryColor": "green"
+									},
+									{
+										"value": "枪声抑制效果[弱]",
+										"batteryValue": 2,
+										"batteryColor": "green"
+									},
+									{
+										"value": "额外水平后坐力控制",
+										"batteryValue": 2,
+										"batteryColor": "green"
+									},
+									{
+										"value": "额外开火时水平枪身稳定性",
+										"batteryValue": 2,
+										"batteryColor": "green"
+									},
+									{
+										"value": "额外开火时水平视野稳定性",
+										"batteryValue": 1,
+										"batteryColor": "green"
+									}
+								]
+							},
+							"disadvantage": {
+								"effectList": [
+									{
+										"value": "操控速度-13",
+										"batteryValue": -7,
+										"batteryColor": "red"
+									}
+								]
+							}
+						}
+					},
+					{
+						"id": 10670,
+						"objectID": 13130000176,
+						"objectName": "AK勇火消音器",
+						"length": 1,
+						"width": 1,
+						"grade": 4,
+						"weight": "0.8",
+						"primaryClass": "acc",
+						"secondClass": "accMuzzle",
+						"secondClassCN": "枪口",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/13130000176.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/p_13130000176.png",
+						"accDetail": {
+							"shotDistancePercent": 18,
+							"controlSpeed": -10,
+							"controlStable": 4,
+							"quickSeparate": 1,
+							"advantage": {
+								"effectList": [
+									{
+										"value": "有效射程与枪口初速+18%",
+										"batteryValue": 3,
+										"batteryColor": "green"
+									},
+									{
+										"value": "据枪稳定性+4",
+										"batteryValue": 2,
+										"batteryColor": "green"
+									},
+									{
+										"value": "枪声抑制效果[弱]",
+										"batteryValue": 2,
+										"batteryColor": "green"
+									}
+								]
+							},
+							"disadvantage": {
+								"effectList": [
+									{
+										"value": "操控速度-10",
+										"batteryValue": -5,
+										"batteryColor": "red"
+									}
+								]
+							}
+						}
+					},
+					{
+						"id": 10654,
+						"objectID": 13130000177,
+						"objectName": "俄系冲锋枪精密消音器",
+						"length": 1,
+						"width": 1,
+						"grade": 4,
+						"weight": "1.05",
+						"primaryClass": "acc",
+						"secondClass": "accMuzzle",
+						"secondClassCN": "枪口",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/13130000177.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/p_13130000177.png",
+						"accDetail": {
+							"recoil": 6,
+							"controlSpeed": -6,
+							"controlStable": -3,
+							"quickSeparate": 1,
+							"advantage": {
+								"effectList": [
+									{
+										"value": "枪声抑制效果[弱]",
+										"batteryValue": 2,
+										"batteryColor": "green"
+									},
+									{
+										"value": "额外水平后坐力控制",
+										"batteryValue": 2,
+										"batteryColor": "green"
+									},
+									{
+										"value": "额外开火时水平枪身稳定性",
+										"batteryValue": 2,
+										"batteryColor": "green"
+									},
+									{
+										"value": "额外开火时水平视野稳定性",
+										"batteryValue": 1,
+										"batteryColor": "green"
+									}
+								]
+							},
+							"disadvantage": {
+								"effectList": [
+									{
+										"value": "操控速度-6",
+										"batteryValue": -3,
+										"batteryColor": "red"
+									},
+									{
+										"value": "据枪稳定性-3",
+										"batteryValue": -2,
+										"batteryColor": "red"
+									}
+								]
+							}
+						}
+					},
+					{
+						"id": 10666,
+						"objectID": 13130000180,
+						"objectName": "漩涡消焰器",
+						"length": 1,
+						"width": 1,
+						"grade": 4,
+						"weight": "0.91",
+						"primaryClass": "acc",
+						"secondClass": "accMuzzle",
+						"secondClassCN": "枪口",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/13130000180.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/p_13130000180.png",
+						"accDetail": {
+							"recoil": 2,
+							"controlSpeed": -2,
+							"controlStable": 5,
+							"quickSeparate": 1,
+							"advantage": {
+								"effectList": [
+									{
+										"value": "后坐力控制+2",
+										"batteryValue": 1,
+										"batteryColor": "green"
+									},
+									{
+										"value": "据枪稳定性+5",
+										"batteryValue": 3,
+										"batteryColor": "green"
+									},
+									{
+										"value": "枪口火光抑制",
+										"batteryValue": 1,
+										"batteryColor": "green"
+									}
+								]
+							},
+							"disadvantage": {
+								"effectList": [
+									{
+										"value": "操控速度-2",
+										"batteryValue": -1,
+										"batteryColor": "red"
+									}
+								]
+							}
+						}
+					},
+					{
+						"id": 10676,
+						"objectID": 13130000181,
+						"objectName": "共鸣狙击枪消音器",
+						"length": 1,
+						"width": 1,
+						"grade": 4,
+						"weight": "1.15",
+						"primaryClass": "acc",
+						"secondClass": "accMuzzle",
+						"secondClassCN": "枪口",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/13130000181.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/p_13130000181.png",
+						"accDetail": {
+							"shotDistancePercent": 30,
+							"controlSpeed": -9,
+							"controlStable": -6,
+							"quickSeparate": 1,
+							"advantage": {
+								"effectList": [
+									{
+										"value": "有效射程与枪口初速+30%",
+										"batteryValue": 5,
+										"batteryColor": "green"
+									},
+									{
+										"value": "枪声抑制程度：高",
+										"batteryValue": 4,
+										"batteryColor": "green"
+									}
+								]
+							},
+							"disadvantage": {
+								"effectList": [
+									{
+										"value": "操控速度-9",
+										"batteryValue": -5,
+										"batteryColor": "red"
+									},
+									{
+										"value": "据枪稳定性-6",
+										"batteryValue": -3,
+										"batteryColor": "red"
+									}
+								]
+							}
+						}
+					},
+					{
+						"id": 10661,
+						"objectID": 13130000182,
+						"objectName": "余烬消音器",
+						"length": 1,
+						"width": 1,
+						"grade": 4,
+						"weight": "0.8",
+						"primaryClass": "acc",
+						"secondClass": "accMuzzle",
+						"secondClassCN": "枪口",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/13130000182.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/p_13130000182.png",
+						"accDetail": {
+							"recoil": 8,
+							"controlSpeed": -9,
+							"quickSeparate": 1,
+							"advantage": {
+								"effectList": [
+									{
+										"value": "后坐力控制+8",
+										"batteryValue": 4,
+										"batteryColor": "green"
+									},
+									{
+										"value": "枪声抑制效果[弱]",
+										"batteryValue": 2,
+										"batteryColor": "green"
+									}
+								]
+							},
+							"disadvantage": {
+								"effectList": [
+									{
+										"value": "操控速度-9",
+										"batteryValue": -5,
+										"batteryColor": "red"
+									}
+								]
+							}
+						}
+					},
+					{
+						"id": 10671,
+						"objectID": 13130000183,
+						"objectName": "泰坦消音器",
+						"length": 1,
+						"width": 1,
+						"grade": 4,
+						"weight": "1.2",
+						"primaryClass": "acc",
+						"secondClass": "accMuzzle",
+						"secondClassCN": "枪口",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/13130000183.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/p_13130000183.png",
+						"accDetail": {
+							"recoil": 10,
+							"controlSpeed": -8,
+							"controlStable": -3,
+							"quickSeparate": 1,
+							"advantage": {
+								"effectList": [
+									{
+										"value": "后坐力控制+10",
+										"batteryValue": 5,
+										"batteryColor": "green"
+									},
+									{
+										"value": "枪声抑制效果[弱]",
+										"batteryValue": 2,
+										"batteryColor": "green"
+									}
+								]
+							},
+							"disadvantage": {
+								"effectList": [
+									{
+										"value": "操控速度-8",
+										"batteryValue": -4,
+										"batteryColor": "red"
+									},
+									{
+										"value": "据枪稳定性-3",
+										"batteryValue": -2,
+										"batteryColor": "red"
+									}
+								]
+							}
+						}
+					},
+					{
+						"id": 10667,
+						"objectID": 13130000186,
+						"objectName": "霰弹枪精密消音器",
+						"length": 1,
+						"width": 1,
+						"grade": 4,
+						"weight": "0.9",
+						"primaryClass": "acc",
+						"secondClass": "accMuzzle",
+						"secondClassCN": "枪口",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/13130000186.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/p_13130000186.png",
+						"accDetail": {
+							"recoil": 5,
+							"controlSpeed": -4,
+							"controlStable": -2,
+							"quickSeparate": 1,
+							"advantage": {
+								"effectList": [
+									{
+										"value": "后坐力控制+5",
+										"batteryValue": 3,
+										"batteryColor": "green"
+									},
+									{
+										"value": "枪声抑制效果[弱]",
+										"batteryValue": 2,
+										"batteryColor": "green"
+									}
+								]
+							},
+							"disadvantage": {
+								"effectList": [
+									{
+										"value": "操控速度-4",
+										"batteryValue": -2,
+										"batteryColor": "red"
+									},
+									{
+										"value": "据枪稳定性-2",
+										"batteryValue": -1,
+										"batteryColor": "red"
+									}
+								]
+							}
+						}
+					},
+					{
+						"id": 10655,
+						"objectID": 13130000187,
+						"objectName": "霰弹枪囚笼补偿器",
+						"length": 1,
+						"width": 1,
+						"grade": 4,
+						"weight": "0.84",
+						"primaryClass": "acc",
+						"secondClass": "accMuzzle",
+						"secondClassCN": "枪口",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/13130000187.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/p_13130000187.png",
+						"accDetail": {
+							"recoil": 12,
+							"controlSpeed": -4,
+							"quickSeparate": 1,
+							"advantage": {
+								"effectList": [
+									{
+										"value": "后坐力控制+12",
+										"batteryValue": 6,
+										"batteryColor": "green"
+									}
+								]
+							},
+							"disadvantage": {
+								"effectList": [
+									{
+										"value": "操控速度-4",
+										"batteryValue": -2,
+										"batteryColor": "red"
+									}
+								]
+							}
+						}
+					},
+					{
+						"id": 10656,
+						"objectID": 13130000188,
+						"objectName": "霰弹枪巨炮制退器",
+						"length": 1,
+						"width": 1,
+						"grade": 4,
+						"weight": "0.88",
+						"primaryClass": "acc",
+						"secondClass": "accMuzzle",
+						"secondClassCN": "枪口",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/13130000188.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/p_13130000188.png",
+						"accDetail": {
+							"recoil": 20,
+							"controlSpeed": -2,
+							"controlStable": -2,
+							"quickSeparate": 1,
+							"advantage": {
+								"effectList": [
+									{
+										"value": "后坐力控制+20",
+										"batteryValue": 8,
+										"batteryColor": "green"
+									}
+								]
+							},
+							"disadvantage": {
+								"effectList": [
+									{
+										"value": "操控速度-2",
+										"batteryValue": -1,
+										"batteryColor": "red"
+									},
+									{
+										"value": "据枪稳定性-2",
+										"batteryValue": -1,
+										"batteryColor": "red"
+									}
+								]
+							}
+						}
+					},
+					{
+						"id": 10677,
+						"objectID": 13130000189,
+						"objectName": "霰弹枪涡流收束器",
+						"length": 1,
+						"width": 1,
+						"grade": 4,
+						"weight": "1.01",
+						"primaryClass": "acc",
+						"secondClass": "accMuzzle",
+						"secondClassCN": "枪口",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/13130000189.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/p_13130000189.png",
+						"accDetail": {
+							"recoil": 15,
+							"hipShot": 8,
+							"controlSpeed": -7,
+							"quickSeparate": 1,
+							"advantage": {
+								"effectList": [
+									{
+										"value": "后坐力控制+15",
+										"batteryValue": 8,
+										"batteryColor": "green"
+									},
+									{
+										"value": "腰际射击精度+8",
+										"batteryValue": 1,
+										"batteryColor": "green"
+									},
+									{
+										"value": "瞄准时弹丸集中度",
+										"batteryValue": 2,
+										"batteryColor": "green"
+									}
+								]
+							},
+							"disadvantage": {
+								"effectList": [
+									{
+										"value": "操控速度-7",
+										"batteryValue": -4,
+										"batteryColor": "red"
+									}
+								]
+							}
+						}
+					},
+					{
+						"id": 10662,
+						"objectID": 13130000190,
+						"objectName": "霰弹枪回声消音器",
+						"length": 1,
+						"width": 1,
+						"grade": 4,
+						"weight": "1.03",
+						"primaryClass": "acc",
+						"secondClass": "accMuzzle",
+						"secondClassCN": "枪口",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/13130000190.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/p_13130000190.png",
+						"accDetail": {
+							"recoil": 8,
+							"controlSpeed": -8,
+							"controlStable": -3,
+							"quickSeparate": 1,
+							"advantage": {
+								"effectList": [
+									{
+										"value": "后坐力控制+8",
+										"batteryValue": 4,
+										"batteryColor": "green"
+									},
+									{
+										"value": "枪声抑制效果[弱]",
+										"batteryValue": 2,
+										"batteryColor": "green"
+									},
+									{
+										"value": "瞄准时弹丸集中度",
+										"batteryValue": 2,
+										"batteryColor": "green"
+									}
+								]
+							},
+							"disadvantage": {
+								"effectList": [
+									{
+										"value": "操控速度-8",
+										"batteryValue": -4,
+										"batteryColor": "red"
+									},
+									{
+										"value": "据枪稳定性-3",
+										"batteryValue": -2,
+										"batteryColor": "red"
+									}
+								]
+							}
+						}
+					},
+					{
+						"id": 10673,
+						"objectID": 13130000196,
+						"objectName": "M7实用消音器",
+						"length": 1,
+						"width": 1,
+						"grade": 4,
+						"weight": "1.11",
+						"primaryClass": "acc",
+						"secondClass": "accMuzzle",
+						"secondClassCN": "枪口",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/13130000196.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/p_13130000196.png",
+						"accDetail": {
+							"recoil": 8,
+							"controlSpeed": -11,
+							"quickSeparate": 1,
+							"advantage": {
+								"effectList": [
+									{
+										"value": "后坐力控制+8",
+										"batteryValue": 4,
+										"batteryColor": "green"
+									},
+									{
+										"value": "枪声抑制效果[弱]",
+										"batteryValue": 2,
+										"batteryColor": "green"
+									}
+								]
+							},
+							"disadvantage": {
+								"effectList": [
+									{
+										"value": "操控速度-11",
+										"batteryValue": -6,
+										"batteryColor": "red"
+									}
+								]
+							}
+						}
+					},
+					{
+						"id": 10844,
+						"objectID": 13130000202,
+						"objectName": "DTK制退器",
+						"length": 1,
+						"width": 1,
+						"grade": 4,
+						"weight": "0.1",
+						"primaryClass": "acc",
+						"secondClass": "accMuzzle",
+						"secondClassCN": "枪口",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/13130000202.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/p_13130000202.png",
+						"accDetail": {
+							"hipShot": 12,
+							"quickSeparate": 1,
+							"advantage": {
+								"effectList": [
+									{
+										"value": "腰际射击精度+12",
+										"batteryValue": 2,
+										"batteryColor": "green"
+									},
+									{
+										"value": "额外开火时枪身稳定性",
+										"batteryValue": 3,
+										"batteryColor": "green"
+									}
+								]
+							},
+							"disadvantage": {
+								"effectList": [
+									{
+										"value": "枪焰干扰瞄准视野",
+										"batteryValue": -1,
+										"batteryColor": "red"
+									}
+								]
+							}
+						}
+					},
+					{
+						"id": 10651,
+						"objectID": 13130000157,
+						"objectName": "实用消音器",
+						"length": 1,
+						"width": 1,
+						"grade": 3,
+						"weight": "0.92",
+						"primaryClass": "acc",
+						"secondClass": "accMuzzle",
+						"secondClassCN": "枪口",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/13130000157.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/p_13130000157.png",
+						"accDetail": {
+							"recoil": -2,
+							"controlStable": -3,
+							"quickSeparate": 1,
+							"advantage": {
+								"effectList": [
+									{
+										"value": "枪声抑制效果[弱]",
+										"batteryValue": 2,
+										"batteryColor": "green"
+									}
+								]
+							},
+							"disadvantage": {
+								"effectList": [
+									{
+										"value": "后坐力控制-2",
+										"batteryValue": -1,
+										"batteryColor": "red"
+									},
+									{
+										"value": "据枪稳定性-3",
+										"batteryValue": -2,
+										"batteryColor": "red"
+									}
+								]
+							}
+						}
+					},
+					{
+						"id": 10668,
+						"objectID": 13130000158,
+						"objectName": "钢制膛口制退器",
+						"length": 1,
+						"width": 1,
+						"grade": 3,
+						"weight": "0.37",
+						"primaryClass": "acc",
+						"secondClass": "accMuzzle",
+						"secondClassCN": "枪口",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/13130000158.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/p_13130000158.png",
+						"accDetail": {
+							"recoil": 6,
+							"controlStable": -1,
+							"quickSeparate": 1,
+							"advantage": {
+								"effectList": [
+									{
+										"value": "后坐力控制+6",
+										"batteryValue": 3,
+										"batteryColor": "green"
+									}
+								]
+							},
+							"disadvantage": {
+								"effectList": [
+									{
+										"value": "据枪稳定性-1",
+										"batteryValue": -1,
+										"batteryColor": "red"
+									},
+									{
+										"value": "枪焰干扰瞄准视野",
+										"batteryValue": -1,
+										"batteryColor": "red"
+									}
+								]
+							}
+						}
+					},
+					{
+						"id": 10681,
+						"objectID": 13130000175,
+						"objectName": "AK实用补偿器",
+						"length": 1,
+						"width": 1,
+						"grade": 3,
+						"weight": "0.41",
+						"primaryClass": "acc",
+						"secondClass": "accMuzzle",
+						"secondClassCN": "枪口",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/13130000175.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/p_13130000175.png",
+						"accDetail": {
+							"recoil": 7,
+							"controlStable": -2,
+							"quickSeparate": 1,
+							"advantage": {
+								"effectList": [
+									{
+										"value": "后坐力控制+7",
+										"batteryValue": 4,
+										"batteryColor": "green"
+									}
+								]
+							},
+							"disadvantage": {
+								"effectList": [
+									{
+										"value": "据枪稳定性-2",
+										"batteryValue": -1,
+										"batteryColor": "red"
+									},
+									{
+										"value": "枪焰干扰瞄准视野",
+										"batteryValue": -1,
+										"batteryColor": "red"
+									}
+								]
+							}
+						}
+					},
+					{
+						"id": 10683,
+						"objectID": 13130000201,
+						"objectName": "OPS消音器",
+						"length": 1,
+						"width": 1,
+						"grade": 3,
+						"weight": "0.7",
+						"primaryClass": "acc",
+						"secondClass": "accMuzzle",
+						"secondClassCN": "枪口",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/13130000201.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/p_13130000201.png",
+						"accDetail": {
+							"recoil": 10,
+							"controlSpeed": -8,
+							"controlStable": -3,
+							"quickSeparate": 1,
+							"advantage": {
+								"effectList": [
+									{
+										"value": "后坐力控制+10",
+										"batteryValue": 5,
+										"batteryColor": "green"
+									},
+									{
+										"value": "枪声抑制效果[弱]",
+										"batteryValue": 2,
+										"batteryColor": "green"
+									}
+								]
+							},
+							"disadvantage": {
+								"effectList": [
+									{
+										"value": "操控速度-8",
+										"batteryValue": -4,
+										"batteryColor": "red"
+									},
+									{
+										"value": "据枪稳定性-3",
+										"batteryValue": -2,
+										"batteryColor": "red"
+									}
+								]
+							}
+						}
+					},
+					{
+						"id": 10657,
+						"objectID": 13130000155,
+						"objectName": "实用消焰器",
+						"length": 1,
+						"width": 1,
+						"grade": 2,
+						"weight": "0.65",
+						"primaryClass": "acc",
+						"secondClass": "accMuzzle",
+						"secondClassCN": "枪口",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/13130000155.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/p_13130000155.png",
+						"accDetail": {
+							"recoil": 2,
+							"quickSeparate": 1,
+							"advantage": {
+								"effectList": [
+									{
+										"value": "后坐力控制+2",
+										"batteryValue": 1,
+										"batteryColor": "green"
+									}
+								]
+							}
+						}
+					},
+					{
+						"id": 10659,
+						"objectID": 13130000174,
+						"objectName": "喇叭口消焰器",
+						"length": 1,
+						"width": 1,
+						"grade": 2,
+						"weight": "0.67",
+						"primaryClass": "acc",
+						"secondClass": "accMuzzle",
+						"secondClassCN": "枪口",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/13130000174.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/p_13130000174.png",
+						"accDetail": {
+							"recoil": 3,
+							"quickSeparate": 1,
+							"advantage": {
+								"effectList": [
+									{
+										"value": "后坐力控制+3",
+										"batteryValue": 2,
+										"batteryColor": "green"
+									}
+								]
+							}
+						}
+					},
+					{
+						"id": 10660,
+						"objectID": 13130000178,
+						"objectName": "鸟笼消焰器",
+						"length": 1,
+						"width": 1,
+						"grade": 2,
+						"weight": "0.71",
+						"primaryClass": "acc",
+						"secondClass": "accMuzzle",
+						"secondClassCN": "枪口",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/13130000178.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/p_13130000178.png",
+						"accDetail": {
+							"recoil": 2,
+							"controlStable": 1,
+							"quickSeparate": 1,
+							"advantage": {
+								"effectList": [
+									{
+										"value": "后坐力控制+2",
+										"batteryValue": 1,
+										"batteryColor": "green"
+									},
+									{
+										"value": "据枪稳定性+1",
+										"batteryValue": 1,
+										"batteryColor": "green"
+									}
+								]
+							}
+						}
+					},
+					{
+						"id": 10672,
+						"objectID": 13130000184,
+						"objectName": "实用霰弹收束器",
+						"length": 1,
+						"width": 1,
+						"grade": 2,
+						"weight": "0.85",
+						"primaryClass": "acc",
+						"secondClass": "accMuzzle",
+						"secondClassCN": "枪口",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/13130000184.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/p_13130000184.png",
+						"accDetail": {
+							"recoil": 5,
+							"hipShot": 4,
+							"controlSpeed": -4,
+							"quickSeparate": 1,
+							"advantage": {
+								"effectList": [
+									{
+										"value": "后坐力控制+5",
+										"batteryValue": 3,
+										"batteryColor": "green"
+									},
+									{
+										"value": "腰际射击精度+4",
+										"batteryValue": 1,
+										"batteryColor": "green"
+									}
+								]
+							},
+							"disadvantage": {
+								"effectList": [
+									{
+										"value": "操控速度-4",
+										"batteryValue": -2,
+										"batteryColor": "red"
+									}
+								]
+							}
+						}
+					},
+					{
+						"id": 10663,
+						"objectID": 13130000192,
+						"objectName": "实用手枪消焰器",
+						"length": 1,
+						"width": 1,
+						"grade": 2,
+						"weight": "0.56",
+						"primaryClass": "acc",
+						"secondClass": "accMuzzle",
+						"secondClassCN": "枪口",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/13130000192.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/p_13130000192.png",
+						"accDetail": {
+							"recoil": 3,
+							"quickSeparate": 1,
+							"advantage": {
+								"effectList": [
+									{
+										"value": "后坐力控制+3",
+										"batteryValue": 2,
+										"batteryColor": "green"
+									},
+									{
+										"value": "枪口火光抑制",
+										"batteryValue": 1,
+										"batteryColor": "green"
+									}
+								]
+							}
+						}
+					},
+					{
+						"id": 10682,
+						"objectID": 13130000193,
+						"objectName": "精英手枪制退器",
+						"length": 1,
+						"width": 1,
+						"grade": 2,
+						"weight": "0.6",
+						"primaryClass": "acc",
+						"secondClass": "accMuzzle",
+						"secondClassCN": "枪口",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/13130000193.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/p_13130000193.png",
+						"accDetail": {
+							"controlSpeed": -3,
+							"quickSeparate": 1,
+							"advantage": {
+								"effectList": [
+									{
+										"value": "额外垂直后坐力控制",
+										"batteryValue": 3,
+										"batteryColor": "green"
+									},
+									{
+										"value": "额外开火时垂直枪身稳定性",
+										"batteryValue": 3,
+										"batteryColor": "green"
+									},
+									{
+										"value": "额外开火时垂直视野稳定性",
+										"batteryValue": 2,
+										"batteryColor": "green"
+									}
+								]
+							},
+							"disadvantage": {
+								"effectList": [
+									{
+										"value": "操控速度-3",
+										"batteryValue": -2,
+										"batteryColor": "red"
+									}
+								]
+							}
+						}
+					},
+					{
+						"id": 10664,
+						"objectID": 13130000195,
+						"objectName": "净化手枪消音器",
+						"length": 1,
+						"width": 1,
+						"grade": 2,
+						"weight": "0.62",
+						"primaryClass": "acc",
+						"secondClass": "accMuzzle",
+						"secondClassCN": "枪口",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/13130000195.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/p_13130000195.png",
+						"accDetail": {
+							"controlSpeed": -8,
+							"controlStable": -4,
+							"quickSeparate": 1,
+							"advantage": {
+								"effectList": [
+									{
+										"value": "枪声抑制程度：高",
+										"batteryValue": 4,
+										"batteryColor": "green"
+									}
+								]
+							},
+							"disadvantage": {
+								"effectList": [
+									{
+										"value": "操控速度-8",
+										"batteryValue": -4,
+										"batteryColor": "red"
+									},
+									{
+										"value": "据枪稳定性-4",
+										"batteryValue": -2,
+										"batteryColor": "red"
+									}
+								]
+							}
+						}
+					}
+				]
+			},
+			"msg": "ok"
+		}
+	},
+	"sAmsSerial": "AMS-DFM-1114121310-XRN5QI-661959-316968"
+}

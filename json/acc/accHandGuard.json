@@ -1,0 +1,903 @@
+{
+	"ret": 0,
+	"iRet": 0,
+	"sMsg": "succ",
+	"jData": {
+		"data": {
+			"code": 0,
+			"data": {
+				"list": [
+					{
+						"id": 10493,
+						"objectID": 13050000254,
+						"objectName": "SKS先进护木",
+						"length": 2,
+						"width": 1,
+						"grade": 4,
+						"weight": "0.25",
+						"primaryClass": "acc",
+						"secondClass": "accHandGuard",
+						"secondClassCN": "护木",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/13050000254.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/p_13050000254.png",
+						"accDetail": {
+							"recoil": 6,
+							"controlSpeed": 2,
+							"quickSeparate": 1,
+							"advantage": {
+								"effectList": [
+									{
+										"value": "后坐力控制+6",
+										"batteryValue": 3,
+										"batteryColor": "green"
+									},
+									{
+										"value": "操控速度+2",
+										"batteryValue": 1,
+										"batteryColor": "green"
+									},
+									{
+										"value": "拓展改装平台",
+										"batteryValue": 2,
+										"batteryColor": "green"
+									}
+								]
+							}
+						}
+					},
+					{
+						"id": 10825,
+						"objectID": 13050000325,
+						"objectName": "M249脚架护木",
+						"length": 1,
+						"width": 1,
+						"grade": 4,
+						"weight": "0.1",
+						"primaryClass": "acc",
+						"secondClass": "accHandGuard",
+						"secondClassCN": "护木",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/13050000325.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/p_13050000325.png",
+						"accDetail": {
+							"controlSpeed": -4,
+							"quickSeparate": 1,
+							"advantage": {
+								"condition": "主动部署脚架时",
+								"effectList": [
+									{
+										"value": "后坐力控制",
+										"batteryValue": 4,
+										"batteryColor": "green"
+									},
+									{
+										"value": "据枪稳定性",
+										"batteryValue": 4,
+										"batteryColor": "green"
+									}
+								]
+							},
+							"disadvantage": {
+								"condition": "脚架收起时",
+								"effectList": [
+									{
+										"value": "操控速度",
+										"batteryValue": -2,
+										"batteryColor": "red"
+									}
+								]
+							}
+						}
+					},
+					{
+						"id": 10506,
+						"objectID": 13200000006,
+						"objectName": "AWM穹顶套件",
+						"length": 1,
+						"width": 1,
+						"grade": 4,
+						"weight": "0.19",
+						"primaryClass": "acc",
+						"secondClass": "accHandGuard",
+						"secondClassCN": "护木",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/13200000006.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/p_13200000006.png",
+						"accDetail": {
+							"recoil": -3,
+							"controlSpeed": 3,
+							"controlStable": 4,
+							"quickSeparate": 1,
+							"advantage": {
+								"effectList": [
+									{
+										"value": "操控速度+3",
+										"batteryValue": 2,
+										"batteryColor": "green"
+									},
+									{
+										"value": "据枪稳定性+4",
+										"batteryValue": 2,
+										"batteryColor": "green"
+									},
+									{
+										"value": "拓展改装平台",
+										"batteryValue": 2,
+										"batteryColor": "green"
+									}
+								]
+							},
+							"disadvantage": {
+								"effectList": [
+									{
+										"value": "后坐力控制-3",
+										"batteryValue": -2,
+										"batteryColor": "red"
+									}
+								]
+							}
+						}
+					},
+					{
+						"id": 10010,
+						"objectID": 13220000001,
+						"objectName": "95长弓平台套件",
+						"length": 1,
+						"width": 1,
+						"grade": 4,
+						"weight": "0.15",
+						"primaryClass": "acc",
+						"secondClass": "accHandGuard",
+						"secondClassCN": "护木",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/13220000001.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/p_13220000001.png",
+						"accDetail": {
+							"recoil": 6,
+							"hipShot": -8,
+							"controlSpeed": 2,
+							"controlStable": 2,
+							"quickSeparate": 1,
+							"advantage": {
+								"effectList": [
+									{
+										"value": "后坐力控制+6",
+										"batteryValue": 3,
+										"batteryColor": "green"
+									},
+									{
+										"value": "操控速度+2",
+										"batteryValue": 1,
+										"batteryColor": "green"
+									},
+									{
+										"value": "据枪稳定性+2",
+										"batteryValue": 1,
+										"batteryColor": "green"
+									},
+									{
+										"value": "拓展改装平台",
+										"batteryValue": 2,
+										"batteryColor": "green"
+									}
+								]
+							},
+							"disadvantage": {
+								"effectList": [
+									{
+										"value": "腰际射击精度-8",
+										"batteryValue": -1,
+										"batteryColor": "red"
+									}
+								]
+							}
+						}
+					},
+					{
+						"id": 10491,
+						"objectID": 13050000178,
+						"objectName": "SR25精英护木",
+						"length": 2,
+						"width": 1,
+						"grade": 3,
+						"weight": "0.32",
+						"primaryClass": "acc",
+						"secondClass": "accHandGuard",
+						"secondClassCN": "护木",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/13050000178.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/p_13050000178.png",
+						"accDetail": {
+							"controlSpeed": 2,
+							"controlStable": 2,
+							"quickSeparate": 1,
+							"advantage": {
+								"effectList": [
+									{
+										"value": "操控速度+2",
+										"batteryValue": 1,
+										"batteryColor": "green"
+									},
+									{
+										"value": "据枪稳定性+2",
+										"batteryValue": 1,
+										"batteryColor": "green"
+									}
+								]
+							}
+						}
+					},
+					{
+						"id": 10500,
+						"objectID": 13050000182,
+						"objectName": "Mini-14先进枪身系统",
+						"length": 2,
+						"width": 1,
+						"grade": 3,
+						"weight": "0.3",
+						"primaryClass": "acc",
+						"secondClass": "accHandGuard",
+						"secondClassCN": "护木",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/13050000182.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/p_13050000182.png",
+						"accDetail": {
+							"recoil": 4,
+							"controlSpeed": 4,
+							"quickSeparate": 1,
+							"advantage": {
+								"effectList": [
+									{
+										"value": "后坐力控制+4",
+										"batteryValue": 2,
+										"batteryColor": "green"
+									},
+									{
+										"value": "操控速度+4",
+										"batteryValue": 2,
+										"batteryColor": "green"
+									}
+								]
+							}
+						}
+					},
+					{
+						"id": 10492,
+						"objectID": 13050000183,
+						"objectName": "M14先进枪身系统",
+						"length": 2,
+						"width": 1,
+						"grade": 3,
+						"weight": "0.28",
+						"primaryClass": "acc",
+						"secondClass": "accHandGuard",
+						"secondClassCN": "护木",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/13050000183.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/p_13050000183.png",
+						"accDetail": {
+							"recoil": 4,
+							"controlSpeed": 4,
+							"quickSeparate": 1,
+							"advantage": {
+								"effectList": [
+									{
+										"value": "后坐力控制+4",
+										"batteryValue": 2,
+										"batteryColor": "green"
+									},
+									{
+										"value": "操控速度+4",
+										"batteryValue": 2,
+										"batteryColor": "green"
+									},
+									{
+										"value": "拓展改装平台",
+										"batteryValue": 2,
+										"batteryColor": "green"
+									}
+								]
+							}
+						}
+					},
+					{
+						"id": 10499,
+						"objectID": 13050000186,
+						"objectName": "M249导轨护木",
+						"length": 2,
+						"width": 1,
+						"grade": 3,
+						"weight": "0.32",
+						"primaryClass": "acc",
+						"secondClass": "accHandGuard",
+						"secondClassCN": "护木",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/13050000186.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/p_13050000186.png",
+						"accDetail": {
+							"recoil": 4,
+							"controlSpeed": 4,
+							"quickSeparate": 1,
+							"advantage": {
+								"effectList": [
+									{
+										"value": "后坐力控制+4",
+										"batteryValue": 2,
+										"batteryColor": "green"
+									},
+									{
+										"value": "操控速度+4",
+										"batteryValue": 2,
+										"batteryColor": "green"
+									}
+								]
+							}
+						}
+					},
+					{
+						"id": 10508,
+						"objectID": 13050000233,
+						"objectName": "M14聚合物一体枪托",
+						"length": 2,
+						"width": 1,
+						"grade": 3,
+						"weight": "0.21",
+						"primaryClass": "acc",
+						"secondClass": "accHandGuard",
+						"secondClassCN": "护木",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/13050000233.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/p_13050000233.png",
+						"accDetail": {
+							"recoil": 4,
+							"quickSeparate": 1,
+							"advantage": {
+								"effectList": [
+									{
+										"value": "后坐力控制+4",
+										"batteryValue": 2,
+										"batteryColor": "green"
+									}
+								]
+							}
+						}
+					},
+					{
+						"id": 10501,
+						"objectID": 13050000234,
+						"objectName": "M14导轨一体枪托",
+						"length": 2,
+						"width": 1,
+						"grade": 3,
+						"weight": "0.25",
+						"primaryClass": "acc",
+						"secondClass": "accHandGuard",
+						"secondClassCN": "护木",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/13050000234.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/p_13050000234.png",
+						"accDetail": {
+							"recoil": 8,
+							"quickSeparate": 1,
+							"advantage": {
+								"effectList": [
+									{
+										"value": "后坐力控制+8",
+										"batteryValue": 4,
+										"batteryColor": "green"
+									}
+								]
+							}
+						}
+					},
+					{
+						"id": 10505,
+						"objectID": 13050000249,
+						"objectName": "svd聚合物护木",
+						"length": 2,
+						"width": 1,
+						"grade": 3,
+						"weight": "0.38",
+						"primaryClass": "acc",
+						"secondClass": "accHandGuard",
+						"secondClassCN": "护木",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/13050000249.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/p_13050000249.png",
+						"accDetail": {
+							"controlStable": 4,
+							"quickSeparate": 1,
+							"advantage": {
+								"effectList": [
+									{
+										"value": "据枪稳定性+4",
+										"batteryValue": 2,
+										"batteryColor": "green"
+									}
+								]
+							}
+						}
+					},
+					{
+						"id": 10509,
+						"objectID": 13050000250,
+						"objectName": "SVD导轨护木",
+						"length": 2,
+						"width": 1,
+						"grade": 3,
+						"weight": "0.35",
+						"primaryClass": "acc",
+						"secondClass": "accHandGuard",
+						"secondClassCN": "护木",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/13050000250.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/p_13050000250.png",
+						"accDetail": {
+							"controlSpeed": 2,
+							"controlStable": 6,
+							"quickSeparate": 1,
+							"advantage": {
+								"effectList": [
+									{
+										"value": "操控速度+2",
+										"batteryValue": 1,
+										"batteryColor": "green"
+									},
+									{
+										"value": "据枪稳定性+6",
+										"batteryValue": 3,
+										"batteryColor": "green"
+									}
+								]
+							}
+						}
+					},
+					{
+						"id": 10496,
+						"objectID": 13050000280,
+						"objectName": "UZI性能护木",
+						"length": 2,
+						"width": 1,
+						"grade": 3,
+						"weight": "0.22",
+						"primaryClass": "acc",
+						"secondClass": "accHandGuard",
+						"secondClassCN": "护木",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/13050000280.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/p_13050000280.png",
+						"accDetail": {
+							"recoil": 8,
+							"hipShot": 8,
+							"controlSpeed": 3,
+							"controlStable": 3,
+							"quickSeparate": 1,
+							"advantage": {
+								"effectList": [
+									{
+										"value": "后坐力控制+8",
+										"batteryValue": 4,
+										"batteryColor": "green"
+									},
+									{
+										"value": "操控速度+3",
+										"batteryValue": 2,
+										"batteryColor": "green"
+									},
+									{
+										"value": "据枪稳定性+3",
+										"batteryValue": 2,
+										"batteryColor": "green"
+									},
+									{
+										"value": "腰际射击精度+8",
+										"batteryValue": 1,
+										"batteryColor": "green"
+									}
+								]
+							}
+						}
+					},
+					{
+						"id": 10498,
+						"objectID": 13050000306,
+						"objectName": "M700黑色一体枪托",
+						"length": 2,
+						"width": 1,
+						"grade": 3,
+						"weight": "0.29",
+						"primaryClass": "acc",
+						"secondClass": "accHandGuard",
+						"secondClassCN": "护木",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/13050000306.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/p_13050000306.png",
+						"accDetail": {
+							"controlSpeed": 7,
+							"controlStable": -3,
+							"quickSeparate": 1,
+							"advantage": {
+								"effectList": [
+									{
+										"value": "操控速度+7",
+										"batteryValue": 4,
+										"batteryColor": "green"
+									}
+								]
+							},
+							"disadvantage": {
+								"effectList": [
+									{
+										"value": "据枪稳定性-3",
+										"batteryValue": -2,
+										"batteryColor": "red"
+									}
+								]
+							}
+						}
+					},
+					{
+						"id": 10504,
+						"objectID": 13050000307,
+						"objectName": "M700稳定一体枪托",
+						"length": 2,
+						"width": 1,
+						"grade": 3,
+						"weight": "0.24",
+						"primaryClass": "acc",
+						"secondClass": "accHandGuard",
+						"secondClassCN": "护木",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/13050000307.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/p_13050000307.png",
+						"accDetail": {
+							"controlSpeed": -3,
+							"controlStable": 7,
+							"quickSeparate": 1,
+							"advantage": {
+								"effectList": [
+									{
+										"value": "据枪稳定性+7",
+										"batteryValue": 4,
+										"batteryColor": "green"
+									}
+								]
+							},
+							"disadvantage": {
+								"effectList": [
+									{
+										"value": "操控速度-3",
+										"batteryValue": -2,
+										"batteryColor": "red"
+									}
+								]
+							}
+						}
+					},
+					{
+						"id": 10503,
+						"objectID": 13050000308,
+						"objectName": "M700先进枪身系统",
+						"length": 2,
+						"width": 1,
+						"grade": 3,
+						"weight": "0.28",
+						"primaryClass": "acc",
+						"secondClass": "accHandGuard",
+						"secondClassCN": "护木",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/13050000308.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/p_13050000308.png",
+						"accDetail": {
+							"recoil": -2,
+							"controlSpeed": 5,
+							"controlStable": 5,
+							"quickSeparate": 1,
+							"advantage": {
+								"effectList": [
+									{
+										"value": "操控速度+5",
+										"batteryValue": 3,
+										"batteryColor": "green"
+									},
+									{
+										"value": "据枪稳定性+5",
+										"batteryValue": 3,
+										"batteryColor": "green"
+									},
+									{
+										"value": "拓展改装平台",
+										"batteryValue": 2,
+										"batteryColor": "green"
+									}
+								]
+							},
+							"disadvantage": {
+								"effectList": [
+									{
+										"value": "后坐力控制-2",
+										"batteryValue": -1,
+										"batteryColor": "red"
+									}
+								]
+							}
+						}
+					},
+					{
+						"id": 10826,
+						"objectID": 13050000328,
+						"objectName": "AKS74U导轨下护木",
+						"length": 1,
+						"width": 1,
+						"grade": 3,
+						"weight": "0.1",
+						"primaryClass": "acc",
+						"secondClass": "accHandGuard",
+						"secondClassCN": "护木",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/13050000328.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/p_13050000328.png",
+						"accDetail": {
+							"recoil": 2,
+							"hipShot": 8,
+							"controlSpeed": 2,
+							"controlStable": 2,
+							"quickSeparate": 1,
+							"advantage": {
+								"effectList": [
+									{
+										"value": "后坐力控制+2",
+										"batteryValue": 1,
+										"batteryColor": "green"
+									},
+									{
+										"value": "操控速度+2",
+										"batteryValue": 1,
+										"batteryColor": "green"
+									},
+									{
+										"value": "据枪稳定性+2",
+										"batteryValue": 1,
+										"batteryColor": "green"
+									},
+									{
+										"value": "腰际射击精度+8",
+										"batteryValue": 1,
+										"batteryColor": "green"
+									},
+									{
+										"value": "拓展改装平台",
+										"batteryValue": 2,
+										"batteryColor": "green"
+									}
+								]
+							}
+						}
+					},
+					{
+						"id": 10827,
+						"objectID": 13400000002,
+						"objectName": "AKS74U导轨上护木",
+						"length": 1,
+						"width": 1,
+						"grade": 3,
+						"weight": "0.1",
+						"primaryClass": "acc",
+						"secondClass": "accHandGuard",
+						"secondClassCN": "护木",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/13400000002.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/p_13400000002.png",
+						"accDetail": {
+							"recoil": 2,
+							"hipShot": 8,
+							"controlSpeed": 2,
+							"controlStable": 2,
+							"quickSeparate": 1,
+							"advantage": {
+								"effectList": [
+									{
+										"value": "后坐力控制+2",
+										"batteryValue": 1,
+										"batteryColor": "green"
+									},
+									{
+										"value": "操控速度+2",
+										"batteryValue": 1,
+										"batteryColor": "green"
+									},
+									{
+										"value": "据枪稳定性+2",
+										"batteryValue": 1,
+										"batteryColor": "green"
+									},
+									{
+										"value": "腰际射击精度+8",
+										"batteryValue": 1,
+										"batteryColor": "green"
+									},
+									{
+										"value": "拓展改装平台",
+										"batteryValue": 2,
+										"batteryColor": "green"
+									}
+								]
+							}
+						}
+					},
+					{
+						"id": 10510,
+						"objectID": 13050000180,
+						"objectName": "Mini-14聚合物枪托",
+						"length": 2,
+						"width": 1,
+						"grade": 2,
+						"weight": "0.24",
+						"primaryClass": "acc",
+						"secondClass": "accHandGuard",
+						"secondClassCN": "护木",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/13050000180.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/p_13050000180.png",
+						"accDetail": {
+							"controlSpeed": 4,
+							"quickSeparate": 1,
+							"advantage": {
+								"effectList": [
+									{
+										"value": "操控速度+4",
+										"batteryValue": 2,
+										"batteryColor": "green"
+									}
+								]
+							}
+						}
+					},
+					{
+						"id": 10507,
+						"objectID": 13050000181,
+						"objectName": "Mini-14聚合物一体枪托",
+						"length": 2,
+						"width": 1,
+						"grade": 2,
+						"weight": "0.26",
+						"primaryClass": "acc",
+						"secondClass": "accHandGuard",
+						"secondClassCN": "护木",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/13050000181.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/p_13050000181.png",
+						"accDetail": {
+							"recoil": 4,
+							"quickSeparate": 1,
+							"advantage": {
+								"effectList": [
+									{
+										"value": "后坐力控制+4",
+										"batteryValue": 2,
+										"batteryColor": "green"
+									}
+								]
+							}
+						}
+					},
+					{
+						"id": 10494,
+						"objectID": 13050000188,
+						"objectName": "M1014导轨护木",
+						"length": 2,
+						"width": 1,
+						"grade": 2,
+						"weight": "0.3",
+						"primaryClass": "acc",
+						"secondClass": "accHandGuard",
+						"secondClassCN": "护木",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/13050000188.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/p_13050000188.png",
+						"accDetail": {
+							"recoil": 3,
+							"controlSpeed": 3,
+							"quickSeparate": 1,
+							"advantage": {
+								"effectList": [
+									{
+										"value": "后坐力控制+3",
+										"batteryValue": 2,
+										"batteryColor": "green"
+									},
+									{
+										"value": "操控速度+3",
+										"batteryValue": 2,
+										"batteryColor": "green"
+									}
+								]
+							}
+						}
+					},
+					{
+						"id": 10497,
+						"objectID": 13050000281,
+						"objectName": "UZI导轨护木",
+						"length": 2,
+						"width": 1,
+						"grade": 2,
+						"weight": "0.25",
+						"primaryClass": "acc",
+						"secondClass": "accHandGuard",
+						"secondClassCN": "护木",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/13050000281.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/p_13050000281.png",
+						"accDetail": {
+							"recoil": 4,
+							"controlSpeed": 4,
+							"quickSeparate": 1,
+							"advantage": {
+								"effectList": [
+									{
+										"value": "后坐力控制+4",
+										"batteryValue": 2,
+										"batteryColor": "green"
+									},
+									{
+										"value": "操控速度+4",
+										"batteryValue": 2,
+										"batteryColor": "green"
+									}
+								]
+							}
+						}
+					},
+					{
+						"id": 10502,
+						"objectID": 13050000285,
+						"objectName": "野牛碳纤维护木",
+						"length": 2,
+						"width": 1,
+						"grade": 2,
+						"weight": "0.22",
+						"primaryClass": "acc",
+						"secondClass": "accHandGuard",
+						"secondClassCN": "护木",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/13050000285.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/p_13050000285.png",
+						"accDetail": {
+							"recoil": 4,
+							"controlSpeed": 4,
+							"quickSeparate": 1,
+							"advantage": {
+								"effectList": [
+									{
+										"value": "后坐力控制+4",
+										"batteryValue": 2,
+										"batteryColor": "green"
+									},
+									{
+										"value": "操控速度+4",
+										"batteryValue": 2,
+										"batteryColor": "green"
+									}
+								]
+							}
+						}
+					},
+					{
+						"id": 10495,
+						"objectID": 13050000191,
+						"objectName": "M870导轨护木",
+						"length": 2,
+						"width": 1,
+						"grade": 1,
+						"weight": "0.22",
+						"primaryClass": "acc",
+						"secondClass": "accHandGuard",
+						"secondClassCN": "护木",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/13050000191.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/p_13050000191.png",
+						"accDetail": {
+							"recoil": 2,
+							"controlSpeed": 2,
+							"quickSeparate": 1,
+							"advantage": {
+								"effectList": [
+									{
+										"value": "后坐力控制+2",
+										"batteryValue": 1,
+										"batteryColor": "green"
+									},
+									{
+										"value": "操控速度+2",
+										"batteryValue": 1,
+										"batteryColor": "green"
+									}
+								]
+							}
+						}
+					}
+				]
+			},
+			"msg": "ok"
+		}
+	},
+	"sAmsSerial": "AMS-DFM-1114121309-Xox1os-661959-316968"
+}
