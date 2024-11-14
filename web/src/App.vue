@@ -62,40 +62,40 @@ let treeList = [
   {
     "name": "道具",
     "children": [
-      { "name": "消耗品", "path": "/json/props/consume.json", "type": "consume" },
-      { "name": "收集品", "path": "/json/props/collection.json", "type": "collection" },
-      { "name": "钥匙", "path": "/json/props/key.json", "type": "key" },
-      { "name": "曼德尔转", "path": "/json/props/mandel.json", "type": "mandel" }
+      { "name": "消耗品", "path": "./json/props/consume.json", "type": "consume" },
+      { "name": "收集品", "path": "./json/props/collection.json", "type": "collection" },
+      { "name": "钥匙", "path": "./json/props/key.json", "type": "key" },
+      { "name": "曼德尔转", "path": "./json/props/mandel.json", "type": "mandel" }
 
     ]
   },
   {
     "name": "装备",
     "children": [
-      { "name": "护甲", "path": "/json/protect/armor.json", "type": "armor" },
-      { "name": "背包", "path": "/json/protect/bag.json", "type": "bag" },
-      { "name": "胸挂", "path": "/json/protect/chest.json", "type": "chest" },
-      { "name": "头盔", "path": "/json/protect/helmet.json", "type": "helmet" }
+      { "name": "护甲", "path": "./json/protect/armor.json", "type": "armor" },
+      { "name": "背包", "path": "./json/protect/bag.json", "type": "bag" },
+      { "name": "胸挂", "path": "./json/protect/chest.json", "type": "chest" },
+      { "name": "头盔", "path": "./json/protect/helmet.json", "type": "helmet" }
     ]
   },
   {
     "name": "配件",
     "children": [
-      { "name": "后握把", "path": "/json/acc/accBackGrip.json", "type": "accBackGrip" },
-      { "name": "枪管", "path": "/json/acc/accBarrel.json", "type": "accBarrel" },
-      { "name": "前握把", "path": "/json/acc/accForeGrip.json", "type": "accForeGrip" },
-      { "name": "功能性配件", "path": "/json/acc/accFunctional.json", "type": "accFunctional" },
-      { "name": "护木", "path": "/json/acc/accHandGuard.json", "type": "accHandGuard" },
-      { "name": "弹匣", "path": "/json/acc/accMagazine.json", "type": "accMagazine" },
-      { "name": "枪口", "path": "/json/acc/accMuzzle.json", "type": "accMuzzle" },
-      { "name": "瞄具", "path": "/json/acc/accScope.json", "type": "accScope" },
-      { "name": "枪托", "path": "/json/acc/accStock.json", "type": "accStock" }
+      { "name": "后握把", "path": "./json/acc/accBackGrip.json", "type": "accBackGrip" },
+      { "name": "枪管", "path": "./json/acc/accBarrel.json", "type": "accBarrel" },
+      { "name": "前握把", "path": "./json/acc/accForeGrip.json", "type": "accForeGrip" },
+      { "name": "功能性配件", "path": "./json/acc/accFunctional.json", "type": "accFunctional" },
+      { "name": "护木", "path": "./json/acc/accHandGuard.json", "type": "accHandGuard" },
+      { "name": "弹匣", "path": "./json/acc/accMagazine.json", "type": "accMagazine" },
+      { "name": "枪口", "path": "./json/acc/accMuzzle.json", "type": "accMuzzle" },
+      { "name": "瞄具", "path": "./json/acc/accScope.json", "type": "accScope" },
+      { "name": "枪托", "path": "./json/acc/accStock.json", "type": "accStock" }
     ]
   },
   {
     "name": "枪械",
     "children": [
-      { "name": "全部", "path": "/json/gun/gunRifle.json", "type": "gunRifle" }
+      { "name": "全部", "path": "./json/gun/gunRifle.json", "type": "gunRifle" }
     ]
   },
 
