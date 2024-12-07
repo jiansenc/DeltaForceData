@@ -24,16 +24,15 @@
           </li>
         </ul>
         <ul class="objectList">
-          <li v-for="item in filteredItems" :key="item.id">
-            <div class="image" :class="`L${item.grade}`">
+          <li data-aos="fade-up" data-aos-duration="100" :data-aos-delay="(index % 5) * 100"
+            v-for="(item, index) in filteredItems" :key="item.id" :class="`L${item.grade}`">
+            <div class="image">
               <img v-lazy="item.pic" width="50" height="50">
             </div>
             <div class="info">
               <h3>{{ item.objectName }}</h3>
               <div class="taglist">
-                <span class="tag">{{ item.secondClassCN }}</span>
-                <span class="tag">{{ item.thirdClassCN }}</span>
-                <span v-for="(tag, index) in getRowTag(item.propsDetail)" class="tag">{{ tag.name }}</span>
+                <span v-for="(tag, index) in getRowTag(item)" class="tag">{{ tag.name }}</span>
               </div>
               <p> {{ item.desc }}</p>
             </div>
@@ -123,7 +122,7 @@ async function loadScript() {
 
       let item = treeList[i].children[j]
 
-      loadingJsName.value = `正在加载 ${treeList[i].name}-${item.name}`
+      loadingJsName.value = `正在加载 ${treeList[i].name}-${item.name}..`
       let list = await getJsonData(item)
       allData[item.type] = list
       loadingJsName.value = `...`
@@ -159,18 +158,68 @@ function changeType(row) {
   filteredItems.value = allData[row.type]
 }
 let objectMap = {
-  availableCount: '可用次数',
-  activeTime: '启用时间',
+  availableCount: {
+    label: '可用次数',
+    unit: '次'
+  },
+  activeTime: {
+    label: '启用时间',
+    unit: '秒'
+  },
+  capacity: {
+    label: '容量',
+    unit: '格'
+  },
+  type: {
+    label: '类型',
+  },
+  propsSource: {
+    label: '',
+  },
+  replyEffect: {},
+  repairPoints: {
+    label: '修复',
+    unit: '点'
+  },
+  durability: {
+    label: '耐久度',
+    unit: '%'
+  },
+  repairEfficiency: {
+    label: '修复效率',
+  },
+  activeTime: {
+    label: '启用时间',
+    unit: '秒'
+  }
+
 }
-function getRowTag(obj) {
-  if (!obj) {
-    return []
+function getRowTag(row) {
+  let obj = {}
+  if (row.propsDetail) {
+    obj = row.propsDetail
+  }
+  if (row.protectDetail) {
+    obj = row.protectDetail
   }
   let list = []
+
+  if (row.secondClassCN) {
+    list.push({
+      name: row.secondClassCN,
+    })
+  }
+  if (row.thirdClassCN) {
+    list.push({
+      name: row.thirdClassCN,
+    })
+  }
   Object.keys(obj).map(item => {
     if (objectMap[item]) {
+      let name = (objectMap[item].label || '') + obj[item] + (objectMap[item].unit || '')
+      name = name.replace(/秒秒/, '秒')
       list.push({
-        name: objectMap[item] + obj[item]
+        name: name
       })
     }
   })
@@ -196,8 +245,10 @@ loadScript()
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 99;
 
   .sb {
+    z-index: 100;
     width: 400px;
     height: 200px;
     background-color: #FFFFFF;
@@ -235,7 +286,7 @@ loadScript()
   background-image: linear-gradient(to right, #9bb3c3, #9eb0ca);
 
   .ner {
-    background-color: #f0f5fa;
+    background-color: #f4f4f4;
     overflow: hidden;
 
     .search {
@@ -336,29 +387,43 @@ loadScript()
       }
 
       .objectList {
+        width: 100%;
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        /* 三列，每列占据可用空间的 1/3 */
-        grid-gap: 10px;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        /* 自适应列数 */
+        grid-auto-rows: min-content;
+        /* 行高自适应 */
+        gap: 15px;
+        padding: 20px;
 
         /* 项目之间的间隙 */
         li {
-          background-color: #FFFFFF;
+          border-radius: 15px;
+          overflow: hidden;
           padding: 20px;
-          border-radius: 10px;
-          display: flex;
-          flex-direction: column;
-          gap: 15px;
-          width: 100%;
-          flex: 1;
+          position: relative;
+          box-shadow: 2px 2px 3px rgb(0 0 0 / 2%);
+
+          &::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 240px;
+            bottom: 0;
+            background-color: #fff;
+            z-index: 1;
+          }
 
           .taglist {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 5px;
             margin-bottom: 10px;
           }
 
           .tag {
             font-size: 12px;
-            margin-right: 5px;
             padding: 5px 10px;
             border-radius: 3px;
             font-family: '新宋体';
@@ -368,32 +433,11 @@ loadScript()
 
           .image {
             padding: 10px;
-
             box-sizing: content-box;
-
-            &.L6 {
-              background-color: #97434c;
-            }
-
-            &.L5 {
-              background-color: #8a5e3e;
-            }
-
-            &.L4 {
-              background-color: #6c57a0;
-            }
-
-            &.L3 {
-              background-color: #3a749f;
-            }
-
-            &.L2 {
-              background-color: #238d6f;
-            }
-
-            &.L1 {
-              background-color: #748084;
-            }
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 20px;
 
             img {
               flex-shrink: 0;
@@ -401,12 +445,38 @@ loadScript()
               height: 200px;
               object-fit: contain;
               margin: 0 auto;
+              filter: drop-shadow(13px 8px 14px rgba(0, 0, 0, 0.2));
             }
+          }
+
+          &.L6 {
+            background-image: linear-gradient(to bottom, #97434c 0%, #fff 70%);
+          }
+
+          &.L5 {
+            background-image: linear-gradient(to bottom, #8a5e3e 0%, #fff 70%);
+          }
+
+          &.L4 {
+            background-image: linear-gradient(to bottom, #6c57a0 0%, #fff 70%);
+          }
+
+          &.L3 {
+            background-image: linear-gradient(to bottom, #3a749f 0%, #fff 70%);
+          }
+
+          &.L2 {
+            background-image: linear-gradient(to bottom, #238d6f 0%, #fff 70%);
+          }
+
+          &.L1 {
+            background-image: linear-gradient(to bottom, #748084 0%, #fff 70%);
           }
 
 
           .info {
-            flex: 1;
+            position: relative;
+            z-index: 2;
 
             h3 {
               font-size: 16px;
