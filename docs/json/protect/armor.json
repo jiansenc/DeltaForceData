@@ -1,0 +1,716 @@
+{
+	"ret": 0,
+	"iRet": 0,
+	"sMsg": "succ",
+	"jData": {
+		"data": {
+			"code": 0,
+			"data": {
+				"list": [
+					{
+						"id": 10954,
+						"objectID": 11050006001,
+						"objectName": "金刚防弹衣",
+						"length": 4,
+						"width": 4,
+						"grade": 6,
+						"weight": "13.68",
+						"primaryClass": "protect",
+						"secondClass": "armor",
+						"secondClassCN": "护甲",
+						"desc": "阿萨拉部队最强的护甲，符合6级防弹标准，也会严重影响穿戴者的移动速度和武器操控性。",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/11050006001.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/p_11050006001.png",
+						"protectDetail": {
+							"durability": 140,
+							"protectLevel": 6,
+							"aimSpeed": {
+								"percent ": -8,
+								"batteryValue": 4,
+								"batteryColor": "red"
+							},
+							"moveSpeed": {
+								"percent ": -7,
+								"batteryValue": 2,
+								"batteryColor": "red"
+							},
+							"repairEfficiency": "中",
+							"protectArea": "胸部,腹部,肩部",
+							"durableLoss": "高"
+						}
+					},
+					{
+						"id": 10793,
+						"objectID": 11050006002,
+						"objectName": "HA-2防弹装甲",
+						"length": 4,
+						"width": 4,
+						"grade": 6,
+						"weight": "6.86",
+						"primaryClass": "protect",
+						"secondClass": "armor",
+						"secondClassCN": "护甲",
+						"desc": "基于Hvk-2重型防弹衣的迭代版本，符合6级防弹标准，会严重影响穿戴者的移动速度和武器操控性。",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/11050006002.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/p_11050006002.png",
+						"protectDetail": {
+							"durability": 115,
+							"protectLevel": 6,
+							"aimSpeed": {
+								"percent ": -1,
+								"batteryValue": 1,
+								"batteryColor": "red"
+							},
+							"moveSpeed": {
+								"percent ": -3,
+								"batteryValue": 1,
+								"batteryColor": "red"
+							},
+							"repairEfficiency": "中",
+							"protectArea": "胸部,腹部,肩部",
+							"durableLoss": "中"
+						}
+					},
+					{
+						"id": 10794,
+						"objectID": 11050006003,
+						"objectName": "特里克MAS2.0装甲",
+						"length": 4,
+						"width": 4,
+						"grade": 6,
+						"weight": "9.39",
+						"primaryClass": "protect",
+						"secondClass": "armor",
+						"secondClassCN": "护甲",
+						"desc": "三角洲小队基于上身全防护需求研发的特里克战术模块化护甲系统，MAS2.0型拥有强大的防护能力，符合6级防弹标准，但同样会影响穿戴者的移动速度和武器操控性。",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/11050006003.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/p_11050006003.png",
+						"protectDetail": {
+							"durability": 125,
+							"protectLevel": 6,
+							"aimSpeed": {
+								"percent ": -6,
+								"batteryValue": 3,
+								"batteryColor": "red"
+							},
+							"moveSpeed": {
+								"percent ": -5,
+								"batteryValue": 2,
+								"batteryColor": "red"
+							},
+							"repairEfficiency": "低",
+							"protectArea": "胸部,腹部,肩部",
+							"durableLoss": "低"
+						}
+					},
+					{
+						"id": 10792,
+						"objectID": 11050006004,
+						"objectName": "犀牛重型防弹衣",
+						"length": 4,
+						"width": 4,
+						"grade": 6,
+						"weight": "12.04",
+						"primaryClass": "protect",
+						"secondClass": "armor",
+						"secondClassCN": "护甲",
+						"desc": "GTI研发部门基于大面积、全包围的设计目标研发的高性能通用装甲系列防弹衣，拥有多种模块化选配装具，符合6级防弹标准，但同样会影响穿戴者的移动速度和武器操控性。",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/11050006004.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/p_11050006004.png",
+						"protectDetail": {
+							"durability": 150,
+							"protectLevel": 6,
+							"aimSpeed": {
+								"percent ": -12,
+								"batteryValue": 4,
+								"batteryColor": "red"
+							},
+							"moveSpeed": {
+								"percent ": -8,
+								"batteryValue": 3,
+								"batteryColor": "red"
+							},
+							"repairEfficiency": "低",
+							"protectArea": "胸部,腹部,肩部",
+							"durableLoss": "中"
+						}
+					},
+					{
+						"id": 10791,
+						"objectID": 11050005001,
+						"objectName": "精英防弹背心",
+						"length": 3,
+						"width": 4,
+						"grade": 5,
+						"weight": "4.85",
+						"primaryClass": "protect",
+						"secondClass": "armor",
+						"secondClassCN": "护甲",
+						"desc": "阿萨拉部队为精英人员配置的最顶级装甲，符合5级防弹标准，会少量影响穿戴者的移动速度和武器操控性。",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/11050005001.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/p_11050005001.png",
+						"protectDetail": {
+							"durability": 95,
+							"protectLevel": 5,
+							"moveSpeed": {
+								"percent ": -1,
+								"batteryValue": 1,
+								"batteryColor": "red"
+							},
+							"repairEfficiency": "高",
+							"protectArea": "胸部,腹部",
+							"durableLoss": "高"
+						}
+					},
+					{
+						"id": 10789,
+						"objectID": 11050005002,
+						"objectName": "Hvk-2防弹衣",
+						"length": 4,
+						"width": 4,
+						"grade": 5,
+						"weight": "10.33",
+						"primaryClass": "protect",
+						"secondClass": "armor",
+						"secondClassCN": "护甲",
+						"desc": "作为哈夫克公司最高级防护标准的第一代作品，符合5级防弹标准，但同时带来惊人的重量和严重的移动速度和武器操控性衰减。",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/11050005002.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/p_11050005002.png",
+						"protectDetail": {
+							"durability": 115,
+							"protectLevel": 5,
+							"aimSpeed": {
+								"percent ": -8,
+								"batteryValue": 3,
+								"batteryColor": "red"
+							},
+							"moveSpeed": {
+								"percent ": -7,
+								"batteryValue": 2,
+								"batteryColor": "red"
+							},
+							"repairEfficiency": "高",
+							"protectArea": "胸部,腹部,肩部",
+							"durableLoss": "高"
+						}
+					},
+					{
+						"id": 10788,
+						"objectID": 11050005003,
+						"objectName": "FS复合防弹衣",
+						"length": 3,
+						"width": 4,
+						"grade": 5,
+						"weight": "7.12",
+						"primaryClass": "protect",
+						"secondClass": "armor",
+						"secondClassCN": "护甲",
+						"desc": "符合5级防弹标准，通过模块化设计降低了一部分重量，但高级防弹插板的重量仍会明显降低穿戴者的移动速度和武器操控性。",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/11050005003.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/p_11050005003.png",
+						"protectDetail": {
+							"durability": 105,
+							"protectLevel": 5,
+							"aimSpeed": {
+								"percent ": -5,
+								"batteryValue": 3,
+								"batteryColor": "red"
+							},
+							"moveSpeed": {
+								"percent ": -3,
+								"batteryValue": 1,
+								"batteryColor": "red"
+							},
+							"repairEfficiency": "低",
+							"protectArea": "胸部,腹部",
+							"durableLoss": "中"
+						}
+					},
+					{
+						"id": 10790,
+						"objectID": 11050005004,
+						"objectName": "重型突击背心",
+						"length": 4,
+						"width": 4,
+						"grade": 5,
+						"weight": "9.83",
+						"primaryClass": "protect",
+						"secondClass": "armor",
+						"secondClassCN": "护甲",
+						"desc": "GTI研发部门对全包围防护装甲的初代实验产品，符合5级防弹标准，同时会严重影响穿戴者的移动速度和武器操控性。",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/11050005004.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/p_11050005004.png",
+						"protectDetail": {
+							"durability": 125,
+							"protectLevel": 5,
+							"aimSpeed": {
+								"percent ": -10,
+								"batteryValue": 4,
+								"batteryColor": "red"
+							},
+							"moveSpeed": {
+								"percent ": -5,
+								"batteryValue": 2,
+								"batteryColor": "red"
+							},
+							"repairEfficiency": "低",
+							"protectArea": "胸部,腹部,肩部",
+							"durableLoss": "中"
+						}
+					},
+					{
+						"id": 10785,
+						"objectID": 11050004001,
+						"objectName": "武士防弹背心",
+						"length": 3,
+						"width": 3,
+						"grade": 4,
+						"weight": "7.12",
+						"primaryClass": "protect",
+						"secondClass": "armor",
+						"secondClassCN": "护甲",
+						"desc": "稍显风格化的防弹装甲，看上去是阿萨拉部队喜欢的样子，符合4级防弹标准。",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/11050004001.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/p_11050004001.png",
+						"protectDetail": {
+							"durability": 80,
+							"protectLevel": 4,
+							"aimSpeed": {
+								"percent ": -5,
+								"batteryValue": 3,
+								"batteryColor": "red"
+							},
+							"moveSpeed": {
+								"percent ": -5,
+								"batteryValue": 2,
+								"batteryColor": "red"
+							},
+							"repairEfficiency": "高",
+							"protectArea": "胸部",
+							"durableLoss": "低"
+						}
+					},
+					{
+						"id": 10784,
+						"objectID": 11050004002,
+						"objectName": "野蜂防弹背心",
+						"length": 3,
+						"width": 4,
+						"grade": 4,
+						"weight": "5.64",
+						"primaryClass": "protect",
+						"secondClass": "armor",
+						"secondClassCN": "护甲",
+						"desc": "搭载哈夫克公司全新防弹工艺的防弹衣，符合4级防弹标准，会大幅影响穿戴者的移动速度，同时轻微影响穿戴者的武器操控性。",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/11050004002.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/p_11050004002.png",
+						"protectDetail": {
+							"durability": 90,
+							"protectLevel": 4,
+							"aimSpeed": {
+								"percent ": -2,
+								"batteryValue": 1,
+								"batteryColor": "red"
+							},
+							"moveSpeed": {
+								"percent ": -1,
+								"batteryValue": 1,
+								"batteryColor": "red"
+							},
+							"repairEfficiency": "中",
+							"protectArea": "胸部,腹部",
+							"durableLoss": "中"
+						}
+					},
+					{
+						"id": 10786,
+						"objectID": 11050004003,
+						"objectName": "DT-AVS防弹衣",
+						"length": 3,
+						"width": 4,
+						"grade": 4,
+						"weight": "8.34",
+						"primaryClass": "protect",
+						"secondClass": "armor",
+						"secondClassCN": "护甲",
+						"desc": "三角洲小队配装的新款防弹衣，保持了腹部防护设计，符合4级防弹标准，但较重的重量会明显影响穿戴者的移动速度和武器操控性。",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/11050004003.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/p_11050004003.png",
+						"protectDetail": {
+							"durability": 100,
+							"protectLevel": 4,
+							"aimSpeed": {
+								"percent ": -4,
+								"batteryValue": 2,
+								"batteryColor": "red"
+							},
+							"moveSpeed": {
+								"percent ": -3,
+								"batteryValue": 1,
+								"batteryColor": "red"
+							},
+							"repairEfficiency": "中",
+							"protectArea": "胸部,腹部",
+							"durableLoss": "中"
+						}
+					},
+					{
+						"id": 10787,
+						"objectID": 11050004004,
+						"objectName": "MK-2战术背心",
+						"length": 3,
+						"width": 4,
+						"grade": 4,
+						"weight": "9.84",
+						"primaryClass": "protect",
+						"secondClass": "armor",
+						"secondClassCN": "护甲",
+						"desc": "GTI研发部门全新设计的防弹衣，符合4级防弹标准，但增加的重量会严重影响穿戴者的移动速度和武器操控性。",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/11050004004.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/p_11050004004.png",
+						"protectDetail": {
+							"durability": 110,
+							"protectLevel": 4,
+							"aimSpeed": {
+								"percent ": -5,
+								"batteryValue": 3,
+								"batteryColor": "red"
+							},
+							"moveSpeed": {
+								"percent ": -5,
+								"batteryValue": 2,
+								"batteryColor": "red"
+							},
+							"repairEfficiency": "低",
+							"protectArea": "胸部,腹部",
+							"durableLoss": "低"
+						}
+					},
+					{
+						"id": 10955,
+						"objectID": 11050004007,
+						"objectName": "HMP特勤防弹衣",
+						"length": 3,
+						"width": 4,
+						"grade": 4,
+						"weight": "3.88",
+						"primaryClass": "protect",
+						"secondClass": "armor",
+						"secondClassCN": "护甲",
+						"desc": "搭载哈夫克安保部门使用新型材质技术的防弹衣，符合4级防弹标准。",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/11050004007.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/p_11050004007.png",
+						"protectDetail": {
+							"durability": 80,
+							"protectLevel": 4,
+							"repairEfficiency": "中",
+							"protectArea": "胸部",
+							"durableLoss": "高"
+						}
+					},
+					{
+						"id": 10780,
+						"objectID": 11050003001,
+						"objectName": "制式防弹背心",
+						"length": 3,
+						"width": 3,
+						"grade": 3,
+						"weight": "2.45",
+						"primaryClass": "protect",
+						"secondClass": "armor",
+						"secondClassCN": "护甲",
+						"desc": "阿萨拉高级士兵才能选择的高品质防弹衣，符合3级防弹标准。",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/11050003001.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/p_11050003001.png",
+						"protectDetail": {
+							"durability": 50,
+							"protectLevel": 3,
+							"aimSpeed": {
+								"percent ": -1,
+								"batteryValue": 1,
+								"batteryColor": "red"
+							},
+							"repairEfficiency": "高",
+							"protectArea": "胸部",
+							"durableLoss": "低"
+						}
+					},
+					{
+						"id": 10781,
+						"objectID": 11050003002,
+						"objectName": "Hvk快拆防弹衣",
+						"length": 3,
+						"width": 3,
+						"grade": 3,
+						"weight": "3.23",
+						"primaryClass": "protect",
+						"secondClass": "armor",
+						"secondClassCN": "护甲",
+						"desc": "前后双防弹插板设计的哈夫克标准装备，符合3级防弹标准，会明显影响穿戴者的移动速度和武器操控性。",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/11050003002.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/p_11050003002.png",
+						"protectDetail": {
+							"durability": 60,
+							"protectLevel": 3,
+							"aimSpeed": {
+								"percent ": -1,
+								"batteryValue": 1,
+								"batteryColor": "red"
+							},
+							"moveSpeed": {
+								"percent ": -1,
+								"batteryValue": 1,
+								"batteryColor": "red"
+							},
+							"repairEfficiency": "中",
+							"protectArea": "胸部",
+							"durableLoss": "低"
+						}
+					},
+					{
+						"id": 10783,
+						"objectID": 11050003003,
+						"objectName": "TG-H防弹衣",
+						"length": 3,
+						"width": 4,
+						"grade": 3,
+						"weight": "4.5",
+						"primaryClass": "protect",
+						"secondClass": "armor",
+						"secondClassCN": "护甲",
+						"desc": "符合3级防弹标准，同时加挂了腹部防护，增加对腹部的防护覆盖，增加的重量会明显影响穿戴者的移动速度和武器操控性。",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/11050003003.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/p_11050003003.png",
+						"protectDetail": {
+							"durability": 75,
+							"protectLevel": 3,
+							"aimSpeed": {
+								"percent ": -3,
+								"batteryValue": 2,
+								"batteryColor": "red"
+							},
+							"moveSpeed": {
+								"percent ": -1,
+								"batteryValue": 1,
+								"batteryColor": "red"
+							},
+							"repairEfficiency": "中",
+							"protectArea": "胸部,腹部",
+							"durableLoss": "中"
+						}
+					},
+					{
+						"id": 10782,
+						"objectID": 11050003004,
+						"objectName": "射手战术背心",
+						"length": 3,
+						"width": 4,
+						"grade": 3,
+						"weight": "6.43",
+						"primaryClass": "protect",
+						"secondClass": "armor",
+						"secondClassCN": "护甲",
+						"desc": "符合3级防弹标准，同时加装腹部防护，增加对腹部的防护覆盖，增加的重量会大幅影响穿戴者的移动速度和武器操控性。",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/11050003004.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/p_11050003004.png",
+						"protectDetail": {
+							"durability": 85,
+							"protectLevel": 3,
+							"aimSpeed": {
+								"percent ": -4,
+								"batteryValue": 2,
+								"batteryColor": "red"
+							},
+							"moveSpeed": {
+								"percent ": -2,
+								"batteryValue": 1,
+								"batteryColor": "red"
+							},
+							"repairEfficiency": "低",
+							"protectArea": "胸部,腹部",
+							"durableLoss": "中"
+						}
+					},
+					{
+						"id": 10777,
+						"objectID": 11050002001,
+						"objectName": "简易防刺服",
+						"length": 3,
+						"width": 3,
+						"grade": 2,
+						"weight": "2.74",
+						"primaryClass": "protect",
+						"secondClass": "armor",
+						"secondClassCN": "护甲",
+						"desc": "阿萨拉士兵大规模列装的标准装备，能阻挡1级子弹穿透。",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/11050002001.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/p_11050002001.png",
+						"protectDetail": {
+							"durability": 30,
+							"protectLevel": 2,
+							"repairEfficiency": "中",
+							"protectArea": "胸部",
+							"durableLoss": "中"
+						}
+					},
+					{
+						"id": 10778,
+						"objectID": 11050002002,
+						"objectName": "HT战术背心",
+						"length": 3,
+						"width": 3,
+						"grade": 2,
+						"weight": "3.38",
+						"primaryClass": "protect",
+						"secondClass": "armor",
+						"secondClassCN": "护甲",
+						"desc": "符合2级防弹标准的哈夫克标准装备。",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/11050002002.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/p_11050002002.png",
+						"protectDetail": {
+							"durability": 35,
+							"protectLevel": 2,
+							"repairEfficiency": "中",
+							"protectArea": "胸部",
+							"durableLoss": "中"
+						}
+					},
+					{
+						"id": 10776,
+						"objectID": 11050002003,
+						"objectName": "UTA猛禽防弹护甲",
+						"length": 3,
+						"width": 3,
+						"grade": 2,
+						"weight": "4.04",
+						"primaryClass": "protect",
+						"secondClass": "armor",
+						"secondClassCN": "护甲",
+						"desc": "三角洲小队基于灵活作战与提升穿戴舒适性需求研发的通用战术防弹背心，高拓展性使其能挂载多种战术装具，符合2级防弹标准。",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/11050002003.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/p_11050002003.png",
+						"protectDetail": {
+							"durability": 40,
+							"protectLevel": 2,
+							"repairEfficiency": "中",
+							"protectArea": "胸部",
+							"durableLoss": "中"
+						}
+					},
+					{
+						"id": 10779,
+						"objectID": 11050002004,
+						"objectName": "通用野蜂战术装甲",
+						"length": 3,
+						"width": 3,
+						"grade": 2,
+						"weight": "4.19",
+						"primaryClass": "protect",
+						"secondClass": "armor",
+						"secondClassCN": "护甲",
+						"desc": "GTI研发部门设计的通用装甲系列作战背心之一，快拆设计能够让穿戴者在狭小空间实现内快速反应，符合2级防弹标准的GTI标准装备。",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/11050002004.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/p_11050002004.png",
+						"protectDetail": {
+							"durability": 50,
+							"protectLevel": 2,
+							"repairEfficiency": "中",
+							"protectArea": "胸部",
+							"durableLoss": "中"
+						}
+					},
+					{
+						"id": 10775,
+						"objectID": 11050001001,
+						"objectName": "摩托马甲",
+						"length": 3,
+						"width": 3,
+						"grade": 1,
+						"weight": "2.44",
+						"primaryClass": "protect",
+						"secondClass": "armor",
+						"secondClassCN": "护甲",
+						"desc": "轻薄舒适，但对子弹几乎没有防护能力。",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/11050001001.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/p_11050001001.png",
+						"protectDetail": {
+							"durability": 20,
+							"protectLevel": 1,
+							"repairEfficiency": "中",
+							"protectArea": "胸部",
+							"durableLoss": "中"
+						}
+					},
+					{
+						"id": 10026,
+						"objectID": 11050001002,
+						"objectName": "安保防弹衣",
+						"length": 3,
+						"width": 3,
+						"grade": 1,
+						"weight": "2.44",
+						"primaryClass": "protect",
+						"secondClass": "armor",
+						"secondClassCN": "护甲",
+						"desc": "使用复合材质，哈夫克士兵最喜欢的轻便之选。",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/11050001002.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/p_11050001002.png",
+						"protectDetail": {
+							"durability": 20,
+							"protectLevel": 1,
+							"repairEfficiency": "中",
+							"protectArea": "胸部",
+							"durableLoss": "中"
+						}
+					},
+					{
+						"id": 10774,
+						"objectID": 11050001003,
+						"objectName": "尼龙防弹衣",
+						"length": 3,
+						"width": 3,
+						"grade": 1,
+						"weight": "1.7",
+						"primaryClass": "protect",
+						"secondClass": "armor",
+						"secondClassCN": "护甲",
+						"desc": "上世纪列装给三角洲小队新兵的软式防弹衣，轻便透气，但防护能力实在薄弱。",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/11050001003.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/p_11050001003.png",
+						"protectDetail": {
+							"durability": 25,
+							"protectLevel": 1,
+							"repairEfficiency": "中",
+							"protectArea": "胸部",
+							"durableLoss": "中"
+						}
+					},
+					{
+						"id": 10027,
+						"objectID": 11050001004,
+						"objectName": "轻型防弹衣",
+						"length": 3,
+						"width": 3,
+						"grade": 1,
+						"weight": "3.07",
+						"primaryClass": "protect",
+						"secondClass": "armor",
+						"secondClassCN": "护甲",
+						"desc": "GTI新兵训练时佩戴的防护装备。",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/11050001004.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/p_11050001004.png",
+						"protectDetail": {
+							"durability": 30,
+							"protectLevel": 1,
+							"repairEfficiency": "中",
+							"protectArea": "胸部",
+							"durableLoss": "中"
+						}
+					}
+				]
+			},
+			"msg": "ok"
+		}
+	},
+	"sAmsSerial": "AMS-DFM-1114120642-PCOSb2-661959-316968"
+}

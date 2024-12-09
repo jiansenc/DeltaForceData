@@ -1,0 +1,766 @@
+{
+	"ret": 0,
+	"iRet": 0,
+	"sMsg": "succ",
+	"jData": {
+		"data": {
+			"code": 0,
+			"data": {
+				"list": [
+					{
+						"id": 10350,
+						"objectID": 11010006002,
+						"objectName": "H70 精英头盔",
+						"length": 2,
+						"width": 2,
+						"grade": 6,
+						"weight": "3.58",
+						"primaryClass": "protect",
+						"secondClass": "helmet",
+						"secondClassCN": "头盔",
+						"desc": "在防暴头盔的基础上迭代了材质和面部装甲，符合6级防弹标准。附带的耳机能提供较弱的拾音降噪效果，头盔视野较差，机动性弱。",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/11010006002.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/p_11010006002.png",
+						"protectDetail": {
+							"durability": 55,
+							"protectLevel": 6,
+							"aimSpeed": {
+								"percent ": -4,
+								"batteryValue": 2,
+								"batteryColor": "red"
+							},
+							"moveSpeed": {
+								"percent ": -3,
+								"batteryValue": 1,
+								"batteryColor": "red"
+							},
+							"soundEffect": {
+								"percent ": 10,
+								"batteryValue": 1,
+								"batteryColor": "green"
+							},
+							"faceMask": {
+								"value": "头盔视野下降",
+								"batteryValue": 2,
+								"batteryColor": "red"
+							},
+							"repairEfficiency": "高",
+							"protectArea": "头部,耳部,面部",
+							"durableLoss": "高"
+						}
+					},
+					{
+						"id": 10349,
+						"objectID": 11010006003,
+						"objectName": "DICH-9重型头盔",
+						"length": 2,
+						"width": 2,
+						"grade": 6,
+						"weight": "2.06",
+						"primaryClass": "protect",
+						"secondClass": "helmet",
+						"secondClassCN": "头盔",
+						"desc": "三角洲小队在战术头盔基础上更换了DICH系列最新工艺的面部装甲，同时加强了头顶防弹材质，符合6级防弹标准，小幅加强了穿戴者的武器操控性和降噪体验，但会明显影响穿戴者的移动速度。加装的面部防护会影响视野，附带的耳机能提供良好的拾音降噪效果。",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/11010006003.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/p_11010006003.png",
+						"protectDetail": {
+							"durability": 50,
+							"protectLevel": 6,
+							"aimSpeed": {
+								"number": -3,
+								"batteryValue": 2,
+								"batteryColor": "red"
+							},
+							"moveSpeed": {
+								"percent ": -1,
+								"batteryValue": 1,
+								"batteryColor": "red"
+							},
+							"soundEffect": {
+								"percent ": 40,
+								"batteryValue": 4,
+								"batteryColor": "green"
+							},
+							"faceMask": {
+								"value": "头盔视野下降",
+								"batteryValue": 2,
+								"batteryColor": "red"
+							},
+							"repairEfficiency": "中",
+							"protectArea": "头部,耳部,下脸",
+							"durableLoss": "中"
+						}
+					},
+					{
+						"id": 10348,
+						"objectID": 11010006004,
+						"objectName": "GT5 指挥官头盔",
+						"length": 2,
+						"width": 2,
+						"grade": 6,
+						"weight": "3.63",
+						"primaryClass": "protect",
+						"secondClass": "helmet",
+						"secondClassCN": "头盔",
+						"desc": "采用了更轻盈的护目能阻挡5级子弹穿透，加装的耳机使穿戴者能获得一定的降噪和拾音能力提升，加装的护目会影响视野。",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/11010006004.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/p_11010006004.png",
+						"protectDetail": {
+							"durability": 60,
+							"protectLevel": 6,
+							"aimSpeed": {
+								"number": -8,
+								"batteryValue": 3,
+								"batteryColor": "red"
+							},
+							"moveSpeed": {
+								"percent ": -3,
+								"batteryValue": 1,
+								"batteryColor": "red"
+							},
+							"soundEffect": {
+								"percent ": 20,
+								"batteryValue": 2,
+								"batteryColor": "green"
+							},
+							"faceMask": {
+								"value": "头盔视野下降",
+								"batteryValue": 1,
+								"batteryColor": "red"
+							},
+							"repairEfficiency": "低",
+							"durableLoss": "低"
+						}
+					},
+					{
+						"id": 10344,
+						"objectID": 11010005001,
+						"objectName": "Mask-1铁壁头盔",
+						"length": 2,
+						"width": 2,
+						"grade": 5,
+						"weight": "3.89",
+						"primaryClass": "protect",
+						"secondClass": "helmet",
+						"secondClassCN": "头盔",
+						"desc": "在卫士头盔基础上更新了高级材质和面部防护的迭代版，符合5级防弹标准，但会显著降低听力效果。",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/11010005001.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/p_11010005001.png",
+						"protectDetail": {
+							"durability": 75,
+							"protectLevel": 5,
+							"aimSpeed": {
+								"percent ": -6,
+								"batteryValue": 3,
+								"batteryColor": "red"
+							},
+							"moveSpeed": {
+								"percent ": -5,
+								"batteryValue": 2,
+								"batteryColor": "red"
+							},
+							"soundEffect": {
+								"percent ": -15,
+								"batteryValue": 3,
+								"batteryColor": "red"
+							},
+							"faceMask": {
+								"value": "头盔视野下降",
+								"batteryValue": 3,
+								"batteryColor": "red"
+							},
+							"repairEfficiency": "低",
+							"protectArea": "头部,耳部,面部",
+							"durableLoss": "低"
+						}
+					},
+					{
+						"id": 10345,
+						"objectID": 11010005002,
+						"objectName": "H09 防暴头盔",
+						"length": 2,
+						"width": 2,
+						"grade": 5,
+						"weight": "2.3",
+						"primaryClass": "protect",
+						"secondClass": "helmet",
+						"secondClassCN": "头盔",
+						"desc": "大面罩和额外护颈的设计使其在战斗场景中拥有极大优势，符合5级防弹标准，耳机能提供少量拾音降噪效果。但会严重影响穿戴者移动速度和视野。",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/11010005002.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/p_11010005002.png",
+						"protectDetail": {
+							"durability": 45,
+							"protectLevel": 5,
+							"aimSpeed": {
+								"percent ": -4,
+								"batteryValue": 2,
+								"batteryColor": "red"
+							},
+							"moveSpeed": {
+								"percent ": -3,
+								"batteryValue": 1,
+								"batteryColor": "red"
+							},
+							"soundEffect": {
+								"percent ": 20,
+								"batteryValue": 2,
+								"batteryColor": "green"
+							},
+							"faceMask": {
+								"value": "头盔视野下降",
+								"batteryValue": 1,
+								"batteryColor": "red"
+							},
+							"repairEfficiency": "中",
+							"protectArea": "头部,耳部,面部",
+							"durableLoss": "高"
+						}
+					},
+					{
+						"id": 10347,
+						"objectID": 11010005003,
+						"objectName": "DICH-1战术头盔",
+						"length": 2,
+						"width": 2,
+						"grade": 5,
+						"weight": "1.71",
+						"primaryClass": "protect",
+						"secondClass": "helmet",
+						"secondClassCN": "头盔",
+						"desc": "符合5级防弹标准，加装了耳机以获得较好的降噪和拾音能力增强，但会对穿戴者的移动速度和武器操控性造成明显影响，加装的护目会影响视野。",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/11010005003.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/p_11010005003.png",
+						"protectDetail": {
+							"durability": 40,
+							"protectLevel": 5,
+							"aimSpeed": {
+								"percent ": -1,
+								"batteryValue": 1,
+								"batteryColor": "red"
+							},
+							"moveSpeed": {
+								"percent ": -1,
+								"batteryValue": 1,
+								"batteryColor": "red"
+							},
+							"soundEffect": {
+								"percent ": 40,
+								"batteryValue": 4,
+								"batteryColor": "green"
+							},
+							"faceMask": {
+								"value": "头盔视野下降",
+								"batteryValue": 2,
+								"batteryColor": "red"
+							},
+							"repairEfficiency": "低",
+							"protectArea": "头部,耳部,上脸",
+							"durableLoss": "高"
+						}
+					},
+					{
+						"id": 10346,
+						"objectID": 11010005004,
+						"objectName": "GN 重型头盔",
+						"length": 2,
+						"width": 2,
+						"grade": 5,
+						"weight": "3.63",
+						"primaryClass": "protect",
+						"secondClass": "helmet",
+						"secondClassCN": "头盔",
+						"desc": "基于最高等级防护而出现的设计产物，符合5级防弹标准，但会严重影响穿戴者的移动速度和武器操控性，加装的面部防护会影响视野。附带的耳机能提供较弱的降噪与拾音效果。",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/11010005004.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/p_11010005004.png",
+						"protectDetail": {
+							"durability": 50,
+							"protectLevel": 5,
+							"aimSpeed": {
+								"percent ": -4,
+								"batteryValue": 2,
+								"batteryColor": "red"
+							},
+							"moveSpeed": {
+								"percent ": -3,
+								"batteryValue": 1,
+								"batteryColor": "red"
+							},
+							"soundEffect": {
+								"percent ": 10,
+								"batteryValue": 1,
+								"batteryColor": "green"
+							},
+							"faceMask": {
+								"value": "头盔视野下降",
+								"batteryValue": 2,
+								"batteryColor": "red"
+							},
+							"repairEfficiency": "低",
+							"protectArea": "头部,耳部,面部",
+							"durableLoss": "低"
+						}
+					},
+					{
+						"id": 10341,
+						"objectID": 11010004001,
+						"objectName": "D6 战术头盔",
+						"length": 2,
+						"width": 2,
+						"grade": 4,
+						"weight": "3.59",
+						"primaryClass": "protect",
+						"secondClass": "helmet",
+						"secondClassCN": "头盔",
+						"desc": "符合4级防弹标准的战术头盔，会明显影响穿戴者的武器操控，同时大幅降低其听力和视野。",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/11010004001.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/p_11010004001.png",
+						"protectDetail": {
+							"durability": 55,
+							"protectLevel": 4,
+							"aimSpeed": {
+								"percent ": -6,
+								"batteryValue": 3,
+								"batteryColor": "red"
+							},
+							"moveSpeed": {
+								"percent ": -4,
+								"batteryValue": 2,
+								"batteryColor": "red"
+							},
+							"soundEffect": {
+								"percent ": -10,
+								"batteryValue": 2,
+								"batteryColor": "red"
+							},
+							"faceMask": {
+								"value": "头盔视野下降",
+								"batteryValue": 3,
+								"batteryColor": "red"
+							},
+							"repairEfficiency": "高",
+							"protectArea": "头部,耳部,面部",
+							"durableLoss": "低"
+						}
+					},
+					{
+						"id": 10340,
+						"objectID": 11010004002,
+						"objectName": "MHS 战术头盔",
+						"length": 2,
+						"width": 2,
+						"grade": 4,
+						"weight": "2.24",
+						"primaryClass": "protect",
+						"secondClass": "helmet",
+						"secondClassCN": "头盔",
+						"desc": "为哈夫克精英设计的高级头盔。配备战术耳机，能提供良好的拾音与降噪能力。整体较重，会明显降低移动能力和操控性。符合4级防弹标准。",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/11010004002.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/p_11010004002.png",
+						"protectDetail": {
+							"durability": 30,
+							"protectLevel": 4,
+							"aimSpeed": {
+								"percent ": -3,
+								"batteryValue": 2,
+								"batteryColor": "red"
+							},
+							"moveSpeed": {
+								"percent ": -1,
+								"batteryValue": 1,
+								"batteryColor": "red"
+							},
+							"soundEffect": {
+								"percent ": 30,
+								"batteryValue": 3,
+								"batteryColor": "green"
+							},
+							"repairEfficiency": "中",
+							"protectArea": "头部,耳部",
+							"durableLoss": "中"
+						}
+					},
+					{
+						"id": 10342,
+						"objectID": 11010004003,
+						"objectName": "DICH 训练头盔",
+						"length": 2,
+						"width": 2,
+						"grade": 4,
+						"weight": "1.13",
+						"primaryClass": "protect",
+						"secondClass": "helmet",
+						"secondClassCN": "头盔",
+						"desc": "三角洲部队的最新工艺，符合4级防弹标准，附带的战术耳机对降噪和拾音能力有显著加强，少量影响穿戴者的移动能力和武器操控。",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/11010004003.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/p_11010004003.png",
+						"protectDetail": {
+							"durability": 35,
+							"protectLevel": 4,
+							"moveSpeed": {
+								"percent ": -2,
+								"batteryValue": 1,
+								"batteryColor": "red"
+							},
+							"soundEffect": {
+								"percent ": 50,
+								"batteryValue": 4,
+								"batteryColor": "green"
+							},
+							"repairEfficiency": "低",
+							"protectArea": "头部,耳部",
+							"durableLoss": "高"
+						}
+					},
+					{
+						"id": 10343,
+						"objectID": 11010004004,
+						"objectName": "GT1 战术头盔",
+						"length": 2,
+						"width": 2,
+						"grade": 4,
+						"weight": "4.05",
+						"primaryClass": "protect",
+						"secondClass": "helmet",
+						"secondClassCN": "头盔",
+						"desc": "符合4级防弹标准，附带的耳机能够带来一定降噪和拾音效果，但会明显影响穿戴者的移动速度和武器操控能力。",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/11010004004.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/p_11010004004.png",
+						"protectDetail": {
+							"durability": 48,
+							"protectLevel": 4,
+							"aimSpeed": {
+								"percent ": -4,
+								"batteryValue": 2,
+								"batteryColor": "red"
+							},
+							"moveSpeed": {
+								"percent ": -4,
+								"batteryValue": 2,
+								"batteryColor": "red"
+							},
+							"soundEffect": {
+								"percent ": 20,
+								"batteryValue": 2,
+								"batteryColor": "green"
+							},
+							"faceMask": {
+								"value": "头盔视野下降",
+								"batteryValue": 2,
+								"batteryColor": "red"
+							},
+							"repairEfficiency": "低",
+							"protectArea": "头部,耳部,上脸",
+							"durableLoss": "中"
+						}
+					},
+					{
+						"id": 10337,
+						"objectID": 11010003001,
+						"objectName": "防暴头盔",
+						"length": 2,
+						"width": 2,
+						"grade": 3,
+						"weight": "1.88",
+						"primaryClass": "protect",
+						"secondClass": "helmet",
+						"secondClassCN": "头盔",
+						"desc": "阿萨拉卫队为了突击作战的装备产物，会少量影响玩家操控性并轻微降低听力效果。",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/11010003001.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/p_11010003001.png",
+						"protectDetail": {
+							"durability": 28,
+							"protectLevel": 3,
+							"aimSpeed": {
+								"percent ": -3,
+								"batteryValue": 2,
+								"batteryColor": "red"
+							},
+							"moveSpeed": {
+								"percent ": -1,
+								"batteryValue": 1,
+								"batteryColor": "red"
+							},
+							"soundEffect": {
+								"percent ": -5,
+								"batteryValue": 1,
+								"batteryColor": "red"
+							},
+							"repairEfficiency": "高",
+							"protectArea": "头部,耳部",
+							"durableLoss": "低"
+						}
+					},
+					{
+						"id": 10338,
+						"objectID": 11010003002,
+						"objectName": "H07 战术头盔",
+						"length": 2,
+						"width": 2,
+						"grade": 3,
+						"weight": "0.9",
+						"primaryClass": "protect",
+						"secondClass": "helmet",
+						"secondClassCN": "头盔",
+						"desc": "符合3级防弹标准，会少量影响穿戴者移速。",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/11010003002.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/p_11010003002.png",
+						"protectDetail": {
+							"durability": 20,
+							"protectLevel": 3,
+							"repairEfficiency": "高",
+							"protectArea": "头部",
+							"durableLoss": "中"
+						}
+					},
+					{
+						"id": 10336,
+						"objectID": 11010003003,
+						"objectName": "通用獾式战术头盔",
+						"length": 2,
+						"width": 2,
+						"grade": 3,
+						"weight": "1.38",
+						"primaryClass": "protect",
+						"secondClass": "helmet",
+						"secondClassCN": "头盔",
+						"desc": "三角洲小队基于头部防护需求研发的通用装甲系列头盔，由超高分子工艺制成，使用的坦克切面外观设计能在保持轻量的同时，有效增加等效防御厚度，能符合3级防弹标准。",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/11010003003.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/p_11010003003.png",
+						"protectDetail": {
+							"durability": 40,
+							"protectLevel": 3,
+							"repairEfficiency": "中",
+							"protectArea": "头部,耳部",
+							"durableLoss": "中"
+						}
+					},
+					{
+						"id": 10339,
+						"objectID": 11010003004,
+						"objectName": "MC201 头盔",
+						"length": 2,
+						"width": 2,
+						"grade": 3,
+						"weight": "1.32",
+						"primaryClass": "protect",
+						"secondClass": "helmet",
+						"secondClassCN": "头盔",
+						"desc": "符合3级防弹标准，加装的耳机能提供少量的拾音和降噪效果。",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/11010003004.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/p_11010003004.png",
+						"protectDetail": {
+							"durability": 34,
+							"protectLevel": 3,
+							"aimSpeed": {
+								"percent ": -1,
+								"batteryValue": 1,
+								"batteryColor": "red"
+							},
+							"moveSpeed": {
+								"percent ": -1,
+								"batteryValue": 1,
+								"batteryColor": "red"
+							},
+							"soundEffect": {
+								"percent ": 20,
+								"batteryValue": 2,
+								"batteryColor": "green"
+							},
+							"repairEfficiency": "中",
+							"protectArea": "头部,耳部",
+							"durableLoss": "高"
+						}
+					},
+					{
+						"id": 10332,
+						"objectID": 11010002001,
+						"objectName": "复古摩托头盔",
+						"length": 2,
+						"width": 2,
+						"grade": 2,
+						"weight": "1.63",
+						"primaryClass": "protect",
+						"secondClass": "helmet",
+						"secondClassCN": "头盔",
+						"desc": "阿萨拉卫队新兵最喜欢的头盔，会轻微降低听力效果。",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/11010002001.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/p_11010002001.png",
+						"protectDetail": {
+							"durability": 18,
+							"protectLevel": 2,
+							"soundEffect": {
+								"percent ": -5,
+								"batteryValue": 1,
+								"batteryColor": "red"
+							},
+							"repairEfficiency": "高",
+							"protectArea": "头部",
+							"durableLoss": "中"
+						}
+					},
+					{
+						"id": 10333,
+						"objectID": 11010002002,
+						"objectName": "H01 战术头盔",
+						"length": 2,
+						"width": 2,
+						"grade": 2,
+						"weight": "0.75",
+						"primaryClass": "protect",
+						"secondClass": "helmet",
+						"secondClassCN": "头盔",
+						"desc": "与常规制式头盔相比重量更轻。",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/11010002002.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/p_11010002002.png",
+						"protectDetail": {
+							"durability": 12,
+							"protectLevel": 2,
+							"repairEfficiency": "高",
+							"protectArea": "头部",
+							"durableLoss": "中"
+						}
+					},
+					{
+						"id": 10334,
+						"objectID": 11010002003,
+						"objectName": "DRO 战术头盔",
+						"length": 2,
+						"width": 2,
+						"grade": 2,
+						"weight": "1.54",
+						"primaryClass": "protect",
+						"secondClass": "helmet",
+						"secondClassCN": "头盔",
+						"desc": "军用头盔的改进版，佩戴稳固，能阻挡1级子弹穿透。",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/11010002003.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/p_11010002003.png",
+						"protectDetail": {
+							"durability": 15,
+							"protectLevel": 2,
+							"repairEfficiency": "高",
+							"protectArea": "头部",
+							"durableLoss": "中"
+						}
+					},
+					{
+						"id": 10335,
+						"objectID": 11010002004,
+						"objectName": "MC防弹头盔",
+						"length": 2,
+						"width": 2,
+						"grade": 2,
+						"weight": "1.69",
+						"primaryClass": "protect",
+						"secondClass": "helmet",
+						"secondClassCN": "头盔",
+						"desc": "能阻挡1级子弹穿透。",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/11010002004.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/p_11010002004.png",
+						"protectDetail": {
+							"durability": 20,
+							"protectLevel": 2,
+							"repairEfficiency": "高",
+							"protectArea": "头部",
+							"durableLoss": "中"
+						}
+					},
+					{
+						"id": 10023,
+						"objectID": 11010001001,
+						"objectName": "老式钢盔",
+						"length": 2,
+						"width": 2,
+						"grade": 1,
+						"weight": "1.01",
+						"primaryClass": "protect",
+						"secondClass": "helmet",
+						"secondClassCN": "头盔",
+						"desc": "单薄钢材组成，有一定程度的保护作用。",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/11010001001.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/p_11010001001.png",
+						"protectDetail": {
+							"durability": 10,
+							"protectLevel": 1,
+							"repairEfficiency": "高",
+							"protectArea": "头部",
+							"durableLoss": "中"
+						}
+					},
+					{
+						"id": 10330,
+						"objectID": 11010001002,
+						"objectName": "安保头盔",
+						"length": 2,
+						"width": 2,
+						"grade": 1,
+						"weight": "0.55",
+						"primaryClass": "protect",
+						"secondClass": "helmet",
+						"secondClassCN": "头盔",
+						"desc": "可以为新兵提供一定保护。",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/11010001002.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/p_11010001002.png",
+						"protectDetail": {
+							"durability": 10,
+							"protectLevel": 1,
+							"repairEfficiency": "高",
+							"protectArea": "头部",
+							"durableLoss": "中"
+						}
+					},
+					{
+						"id": 10331,
+						"objectID": 11010001003,
+						"objectName": "奔尼帽",
+						"length": 2,
+						"width": 2,
+						"grade": 1,
+						"weight": "0.37",
+						"primaryClass": "protect",
+						"secondClass": "helmet",
+						"secondClassCN": "头盔",
+						"desc": "遮阳隐蔽两不误。",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/11010001003.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/p_11010001003.png",
+						"protectDetail": {
+							"durability": 10,
+							"protectLevel": 1,
+							"repairEfficiency": "高",
+							"protectArea": "头部",
+							"durableLoss": "中"
+						}
+					},
+					{
+						"id": 10024,
+						"objectID": 11010001004,
+						"objectName": "户外棒球帽",
+						"length": 2,
+						"width": 2,
+						"grade": 1,
+						"weight": "0.41",
+						"primaryClass": "protect",
+						"secondClass": "helmet",
+						"secondClassCN": "头盔",
+						"desc": "附带的监听耳机能提供较弱的拾音与降噪效果。",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/11010001004.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/p_11010001004.png",
+						"protectDetail": {
+							"durability": 12,
+							"protectLevel": 1,
+							"soundEffect": {
+								"percent ": 10,
+								"batteryValue": 1,
+								"batteryColor": "green"
+							},
+							"repairEfficiency": "高",
+							"protectArea": "头部",
+							"durableLoss": "中"
+						}
+					}
+				]
+			},
+			"msg": "ok"
+		}
+	},
+	"sAmsSerial": "AMS-DFM-1114120725-c9MLTF-661959-316968"
+}

@@ -1,0 +1,1081 @@
+{
+	"ret": 0,
+	"iRet": 0,
+	"sMsg": "succ",
+	"jData": {
+		"data": {
+			"code": 0,
+			"data": {
+				"list": [
+					{
+						"id": 10060,
+						"objectID": 15050100008,
+						"objectName": "变电站技术室",
+						"length": 1,
+						"width": 1,
+						"grade": 6,
+						"weight": "0.05",
+						"primaryClass": "props",
+						"secondClass": "key",
+						"secondClassCN": "钥匙",
+						"desc": "用于开启变电站技术室的钥匙。",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/key/零号大坝白卡.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/key/p_零号大坝白卡.png",
+						"propsDetail": {
+							"useMap": "零号大坝",
+							"usePlace": "零号大坝-大变电站",
+							"durability": 20
+						}
+					},
+					{
+						"id": 10061,
+						"objectID": 15050100019,
+						"objectName": "东楼经理室",
+						"length": 1,
+						"width": 1,
+						"grade": 6,
+						"weight": "0.05",
+						"primaryClass": "props",
+						"secondClass": "key",
+						"secondClassCN": "钥匙",
+						"desc": "用于开启东楼经理室的钥匙。",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/key/零号大坝金卡.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/key/p_零号大坝金卡.png",
+						"propsDetail": {
+							"useMap": "零号大坝",
+							"usePlace": "零号大坝-行政楼",
+							"durability": 20,
+							"keyCardType": 1
+						}
+					},
+					{
+						"id": 10045,
+						"objectID": 15050200001,
+						"objectName": "总裁室会客厅",
+						"length": 1,
+						"width": 1,
+						"grade": 6,
+						"weight": "0.05",
+						"primaryClass": "props",
+						"secondClass": "key",
+						"secondClassCN": "钥匙",
+						"desc": "用于开启总裁室会客厅的钥匙。",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/key/航天基地金卡.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/key/p_航天基地金卡.png",
+						"propsDetail": {
+							"useMap": "航天基地",
+							"usePlace": "航天基地-总裁室",
+							"durability": 40,
+							"keyCardType": 1
+						}
+					},
+					{
+						"id": 10046,
+						"objectID": 15050200004,
+						"objectName": "黑室服务器室",
+						"length": 1,
+						"width": 1,
+						"grade": 6,
+						"weight": "0.05",
+						"primaryClass": "props",
+						"secondClass": "key",
+						"secondClassCN": "钥匙",
+						"desc": "用于开启黑室服务器室的钥匙。",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/key/航天基地白卡.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/key/p_航天基地白卡.png",
+						"propsDetail": {
+							"useMap": "航天基地",
+							"usePlace": "航天基地-黑室",
+							"durability": 40
+						}
+					},
+					{
+						"id": 10047,
+						"objectID": 15050200005,
+						"objectName": "蓝室核心",
+						"length": 1,
+						"width": 1,
+						"grade": 6,
+						"weight": "0.05",
+						"primaryClass": "props",
+						"secondClass": "key",
+						"secondClassCN": "钥匙",
+						"desc": "用于开启蓝室核心的钥匙。",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/key/航天基地白卡.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/key/p_航天基地白卡.png",
+						"propsDetail": {
+							"useMap": "航天基地",
+							"usePlace": "航天基地-蓝室",
+							"durability": 40
+						}
+					},
+					{
+						"id": 10048,
+						"objectID": 15050200013,
+						"objectName": "总裁室放映厅",
+						"length": 1,
+						"width": 1,
+						"grade": 6,
+						"weight": "0",
+						"primaryClass": "props",
+						"secondClass": "key",
+						"secondClassCN": "钥匙",
+						"desc": "用于开启总裁室放映厅的钥匙。",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/key/航天基地白卡.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/key/p_航天基地白卡.png",
+						"propsDetail": {
+							"useMap": "航天基地",
+							"usePlace": "航天基地-总裁室",
+							"durability": 30
+						}
+					},
+					{
+						"id": 10077,
+						"objectID": 15050300001,
+						"objectName": "酒店国王房",
+						"length": 1,
+						"width": 1,
+						"grade": 6,
+						"weight": "0.05",
+						"primaryClass": "props",
+						"secondClass": "key",
+						"secondClassCN": "钥匙",
+						"desc": "用于开启酒店国王房的钥匙",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/key/长弓溪谷金卡.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/key/p_长弓溪谷金卡.png",
+						"propsDetail": {
+							"useMap": "长弓溪谷",
+							"usePlace": "长弓溪谷-钻石皇后酒店",
+							"durability": 20,
+							"keyCardType": 1
+						}
+					},
+					{
+						"id": 10078,
+						"objectID": 15050300013,
+						"objectName": "雷达站无人机平台",
+						"length": 1,
+						"width": 1,
+						"grade": 6,
+						"weight": "0.05",
+						"primaryClass": "props",
+						"secondClass": "key",
+						"secondClassCN": "钥匙",
+						"desc": "用于开启雷达站无人机平台的钥匙",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/key/长弓溪谷金卡.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/key/p_长弓溪谷金卡.png",
+						"propsDetail": {
+							"useMap": "长弓溪谷",
+							"usePlace": "长弓溪谷-哈夫克雷达站",
+							"durability": 20,
+							"keyCardType": 1
+						}
+					},
+					{
+						"id": 10944,
+						"objectID": 15050400001,
+						"objectName": "地下金库储藏间",
+						"length": 1,
+						"width": 1,
+						"grade": 6,
+						"weight": "0.05",
+						"primaryClass": "props",
+						"secondClass": "key",
+						"secondClassCN": "钥匙",
+						"desc": "用于开启地下金库储藏间",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/key/巴克什金卡.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/key/p_巴克什金卡.png",
+						"propsDetail": {
+							"useMap": "巴克什",
+							"usePlace": "巴克什-地下金库",
+							"durability": 40,
+							"keyCardType": 1
+						}
+					},
+					{
+						"id": 10945,
+						"objectID": 15050400002,
+						"objectName": "博物馆展厅套间",
+						"length": 1,
+						"width": 1,
+						"grade": 6,
+						"weight": "0.05",
+						"primaryClass": "props",
+						"secondClass": "key",
+						"secondClassCN": "钥匙",
+						"desc": "用于开启博物馆展厅套间",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/key/巴克什白卡.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/key/p_巴克什白卡.png",
+						"propsDetail": {
+							"useMap": "巴克什",
+							"usePlace": "巴克什-博物馆",
+							"durability": 20
+						}
+					},
+					{
+						"id": 10948,
+						"objectID": 15050400005,
+						"objectName": "老浴场贵宾室",
+						"length": 1,
+						"width": 1,
+						"grade": 6,
+						"weight": "0.05",
+						"primaryClass": "props",
+						"secondClass": "key",
+						"secondClassCN": "钥匙",
+						"desc": "用于开启老浴场贵宾室",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/key/巴克什白卡.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/key/p_巴克什白卡.png",
+						"propsDetail": {
+							"useMap": "巴克什",
+							"usePlace": "巴克什-老浴场",
+							"durability": 20
+						}
+					},
+					{
+						"id": 10949,
+						"objectID": 15050400006,
+						"objectName": "旅店用餐间",
+						"length": 1,
+						"width": 1,
+						"grade": 6,
+						"weight": "0.05",
+						"primaryClass": "props",
+						"secondClass": "key",
+						"secondClassCN": "钥匙",
+						"desc": "用于开启旅店用餐间",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/key/巴克什白卡.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/key/p_巴克什白卡.png",
+						"propsDetail": {
+							"useMap": "巴克什",
+							"usePlace": "巴克什-旅店",
+							"durability": 20
+						}
+					},
+					{
+						"id": 10057,
+						"objectID": 15050100013,
+						"objectName": "西楼调控房",
+						"length": 1,
+						"width": 1,
+						"grade": 5,
+						"weight": "0.05",
+						"primaryClass": "props",
+						"secondClass": "key",
+						"secondClassCN": "钥匙",
+						"desc": "用于开启西楼调控房的钥匙。",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/key/零号大坝白卡.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/key/p_零号大坝白卡.png",
+						"propsDetail": {
+							"useMap": "零号大坝",
+							"usePlace": "零号大坝-行政楼",
+							"durability": 20
+						}
+					},
+					{
+						"id": 10058,
+						"objectID": 15050100014,
+						"objectName": "西楼监视室",
+						"length": 1,
+						"width": 1,
+						"grade": 5,
+						"weight": "0.05",
+						"primaryClass": "props",
+						"secondClass": "key",
+						"secondClassCN": "钥匙",
+						"desc": "用于开启西楼监视室的钥匙。",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/key/零号大坝白卡.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/key/p_零号大坝白卡.png",
+						"propsDetail": {
+							"useMap": "零号大坝",
+							"usePlace": "零号大坝-行政楼",
+							"durability": 20
+						}
+					},
+					{
+						"id": 10059,
+						"objectID": 15050100016,
+						"objectName": "设备领用室",
+						"length": 1,
+						"width": 1,
+						"grade": 5,
+						"weight": "0.05",
+						"primaryClass": "props",
+						"secondClass": "key",
+						"secondClassCN": "钥匙",
+						"desc": "用于开启设备领用室的钥匙。",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/key/零号大坝白卡.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/key/p_零号大坝白卡.png",
+						"propsDetail": {
+							"useMap": "零号大坝",
+							"usePlace": "零号大坝-行政楼",
+							"durability": 20
+						}
+					},
+					{
+						"id": 10043,
+						"objectID": 15050200002,
+						"objectName": "东区吊桥",
+						"length": 1,
+						"width": 1,
+						"grade": 5,
+						"weight": "0",
+						"primaryClass": "props",
+						"secondClass": "key",
+						"secondClassCN": "钥匙",
+						"desc": "用于开启东区吊桥的钥匙。",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/key/航天基地白卡.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/key/p_航天基地白卡.png",
+						"propsDetail": {
+							"useMap": "航天基地",
+							"usePlace": "航天基地-东区吊桥",
+							"durability": 40
+						}
+					},
+					{
+						"id": 10044,
+						"objectID": 15050200003,
+						"objectName": "蓝室数据中心",
+						"length": 1,
+						"width": 1,
+						"grade": 5,
+						"weight": "0.05",
+						"primaryClass": "props",
+						"secondClass": "key",
+						"secondClassCN": "钥匙",
+						"desc": "用于开启蓝室数据中心的钥匙。",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/key/航天基地白卡.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/key/p_航天基地白卡.png",
+						"propsDetail": {
+							"useMap": "航天基地",
+							"usePlace": "航天基地-蓝室",
+							"durability": 40
+						}
+					},
+					{
+						"id": 10069,
+						"objectID": 15050300005,
+						"objectName": "酒店王子房",
+						"length": 1,
+						"width": 1,
+						"grade": 5,
+						"weight": "0.05",
+						"primaryClass": "props",
+						"secondClass": "key",
+						"secondClassCN": "钥匙",
+						"desc": "用于开启酒店王子房的钥匙",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/key/长弓溪谷白卡.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/key/p_长弓溪谷白卡.png",
+						"propsDetail": {
+							"useMap": "长弓溪谷",
+							"usePlace": "长弓溪谷-钻石皇后酒店",
+							"durability": 20
+						}
+					},
+					{
+						"id": 10070,
+						"objectID": 15050300008,
+						"objectName": "酒店黑桃房",
+						"length": 1,
+						"width": 1,
+						"grade": 5,
+						"weight": "0.05",
+						"primaryClass": "props",
+						"secondClass": "key",
+						"secondClassCN": "钥匙",
+						"desc": "用于开启酒店黑桃房的钥匙",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/key/长弓溪谷白卡.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/key/p_长弓溪谷白卡.png",
+						"propsDetail": {
+							"useMap": "长弓溪谷",
+							"usePlace": "长弓溪谷-钻石皇后酒店",
+							"durability": 20
+						}
+					},
+					{
+						"id": 10071,
+						"objectID": 15050300011,
+						"objectName": "酒店方片房",
+						"length": 1,
+						"width": 1,
+						"grade": 5,
+						"weight": "0.05",
+						"primaryClass": "props",
+						"secondClass": "key",
+						"secondClassCN": "钥匙",
+						"desc": "用于开启酒店方片房的钥匙",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/key/长弓溪谷白卡.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/key/p_长弓溪谷白卡.png",
+						"propsDetail": {
+							"useMap": "长弓溪谷",
+							"usePlace": "长弓溪谷-钻石皇后酒店",
+							"durability": 20
+						}
+					},
+					{
+						"id": 10072,
+						"objectID": 15050300014,
+						"objectName": "雷达站控制室",
+						"length": 1,
+						"width": 1,
+						"grade": 5,
+						"weight": "0.05",
+						"primaryClass": "props",
+						"secondClass": "key",
+						"secondClassCN": "钥匙",
+						"desc": "用于开启雷达站的控制室",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/key/长弓溪谷白卡.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/key/p_长弓溪谷白卡.png",
+						"propsDetail": {
+							"useMap": "长弓溪谷",
+							"usePlace": "长弓溪谷-哈夫克雷达站",
+							"durability": 20
+						}
+					},
+					{
+						"id": 10073,
+						"objectID": 15050300015,
+						"objectName": "雷达站数据中心",
+						"length": 1,
+						"width": 1,
+						"grade": 5,
+						"weight": "0.05",
+						"primaryClass": "props",
+						"secondClass": "key",
+						"secondClassCN": "钥匙",
+						"desc": "用于开启雷达站数据中心的钥匙",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/key/长弓溪谷白卡.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/key/p_长弓溪谷白卡.png",
+						"propsDetail": {
+							"useMap": "长弓溪谷",
+							"usePlace": "长弓溪谷-哈夫克雷达站",
+							"durability": 20
+						}
+					},
+					{
+						"id": 10074,
+						"objectID": 15050300019,
+						"objectName": "实验楼资料室",
+						"length": 1,
+						"width": 1,
+						"grade": 5,
+						"weight": "0.05",
+						"primaryClass": "props",
+						"secondClass": "key",
+						"secondClassCN": "钥匙",
+						"desc": "用于开启实验楼资料室的钥匙",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/key/长弓溪谷白卡.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/key/p_长弓溪谷白卡.png",
+						"propsDetail": {
+							"useMap": "长弓溪谷",
+							"usePlace": "长弓溪谷-哈夫克雷达站",
+							"durability": 20
+						}
+					},
+					{
+						"id": 10075,
+						"objectID": 15050300020,
+						"objectName": "实验楼办公室",
+						"length": 1,
+						"width": 1,
+						"grade": 5,
+						"weight": "0.05",
+						"primaryClass": "props",
+						"secondClass": "key",
+						"secondClassCN": "钥匙",
+						"desc": "用于开启雷达站实验楼的办公室",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/key/长弓溪谷白卡.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/key/p_长弓溪谷白卡.png",
+						"propsDetail": {
+							"useMap": "长弓溪谷",
+							"usePlace": "长弓溪谷-哈夫克雷达站",
+							"durability": 20
+						}
+					},
+					{
+						"id": 10076,
+						"objectID": 15050300032,
+						"objectName": "酒店将军房",
+						"length": 1,
+						"width": 1,
+						"grade": 5,
+						"weight": "0.05",
+						"primaryClass": "props",
+						"secondClass": "key",
+						"secondClassCN": "钥匙",
+						"desc": "用于开启酒店将军房的钥匙",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/key/长弓溪谷白卡.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/key/p_长弓溪谷白卡.png",
+						"propsDetail": {
+							"useMap": "长弓溪谷",
+							"usePlace": "长弓溪谷-钻石皇后酒店",
+							"durability": 20
+						}
+					},
+					{
+						"id": 10946,
+						"objectID": 15050400003,
+						"objectName": "博物馆废弃展厅",
+						"length": 1,
+						"width": 1,
+						"grade": 5,
+						"weight": "0.05",
+						"primaryClass": "props",
+						"secondClass": "key",
+						"secondClassCN": "钥匙",
+						"desc": "用于开启博物馆废弃展厅",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/key/巴克什白卡.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/key/p_巴克什白卡.png",
+						"propsDetail": {
+							"useMap": "巴克什",
+							"usePlace": "巴克什-博物馆",
+							"durability": 20
+						}
+					},
+					{
+						"id": 10947,
+						"objectID": 15050400004,
+						"objectName": "博物馆监控室",
+						"length": 1,
+						"width": 1,
+						"grade": 5,
+						"weight": "0.05",
+						"primaryClass": "props",
+						"secondClass": "key",
+						"secondClassCN": "钥匙",
+						"desc": "用于开启博物馆监控室",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/key/巴克什白卡.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/key/p_巴克什白卡.png",
+						"propsDetail": {
+							"useMap": "巴克什",
+							"usePlace": "巴克什-博物馆",
+							"durability": 20
+						}
+					},
+					{
+						"id": 10052,
+						"objectID": 15050100001,
+						"objectName": "水泥厂办公室",
+						"length": 1,
+						"width": 1,
+						"grade": 4,
+						"weight": "0.05",
+						"primaryClass": "props",
+						"secondClass": "key",
+						"secondClassCN": "钥匙",
+						"desc": "用于开启水泥厂办公室的钥匙。",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/key/零号大坝白卡.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/key/p_零号大坝白卡.png",
+						"propsDetail": {
+							"useMap": "零号大坝",
+							"usePlace": "零号大坝-水泥厂",
+							"durability": 20
+						}
+					},
+					{
+						"id": 10053,
+						"objectID": 15050100003,
+						"objectName": "水泥厂宿舍201",
+						"length": 1,
+						"width": 1,
+						"grade": 4,
+						"weight": "0.05",
+						"primaryClass": "props",
+						"secondClass": "key",
+						"secondClassCN": "钥匙",
+						"desc": "用于开启水泥厂宿舍201的钥匙。",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/key/零号大坝白卡.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/key/p_零号大坝白卡.png",
+						"propsDetail": {
+							"useMap": "零号大坝",
+							"usePlace": "零号大坝-水泥厂",
+							"durability": 20
+						}
+					},
+					{
+						"id": 10054,
+						"objectID": 15050100004,
+						"objectName": "军营保管室",
+						"length": 1,
+						"width": 1,
+						"grade": 4,
+						"weight": "0.05",
+						"primaryClass": "props",
+						"secondClass": "key",
+						"secondClassCN": "钥匙",
+						"desc": "用于开启军营保管室的钥匙。",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/key/零号大坝白卡.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/key/p_零号大坝白卡.png",
+						"propsDetail": {
+							"useMap": "零号大坝",
+							"usePlace": "零号大坝-反叛军军营",
+							"durability": 20
+						}
+					},
+					{
+						"id": 10055,
+						"objectID": 15050100006,
+						"objectName": "售票办公室",
+						"length": 1,
+						"width": 1,
+						"grade": 4,
+						"weight": "0.05",
+						"primaryClass": "props",
+						"secondClass": "key",
+						"secondClassCN": "钥匙",
+						"desc": "用于开启售票办公室的钥匙。",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/key/零号大坝白卡.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/key/p_零号大坝白卡.png",
+						"propsDetail": {
+							"useMap": "零号大坝",
+							"usePlace": "零号大坝-游客中心",
+							"durability": 20
+						}
+					},
+					{
+						"id": 10056,
+						"objectID": 15050100007,
+						"objectName": "中心贵宾室",
+						"length": 1,
+						"width": 1,
+						"grade": 4,
+						"weight": "0.05",
+						"primaryClass": "props",
+						"secondClass": "key",
+						"secondClassCN": "钥匙",
+						"desc": "用于开启中心贵宾室的钥匙。",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/key/零号大坝白卡.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/key/p_零号大坝白卡.png",
+						"propsDetail": {
+							"useMap": "零号大坝",
+							"usePlace": "零号大坝-游客中心",
+							"durability": 20
+						}
+					},
+					{
+						"id": 10036,
+						"objectID": 15050200006,
+						"objectName": "浮力室医务间",
+						"length": 1,
+						"width": 1,
+						"grade": 4,
+						"weight": "0",
+						"primaryClass": "props",
+						"secondClass": "key",
+						"secondClassCN": "钥匙",
+						"desc": "用于开启浮力室医务间的钥匙。",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/key/航天基地白卡.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/key/p_航天基地白卡.png",
+						"propsDetail": {
+							"useMap": "航天基地",
+							"usePlace": "航天基地-浮力室",
+							"durability": 40
+						}
+					},
+					{
+						"id": 10037,
+						"objectID": 15050200007,
+						"objectName": "西区大门",
+						"length": 1,
+						"width": 1,
+						"grade": 4,
+						"weight": "0",
+						"primaryClass": "props",
+						"secondClass": "key",
+						"secondClassCN": "钥匙",
+						"desc": "用于开启西区大门的钥匙。",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/key/航天基地白卡.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/key/p_航天基地白卡.png",
+						"propsDetail": {
+							"useMap": "航天基地",
+							"usePlace": "航天基地-西区大门",
+							"durability": 40
+						}
+					},
+					{
+						"id": 10038,
+						"objectID": 15050200008,
+						"objectName": "中控室三楼",
+						"length": 1,
+						"width": 1,
+						"grade": 4,
+						"weight": "0.05",
+						"primaryClass": "props",
+						"secondClass": "key",
+						"secondClassCN": "钥匙",
+						"desc": "用于开启中控室三楼的钥匙。",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/key/航天基地白卡.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/key/p_航天基地白卡.png",
+						"propsDetail": {
+							"useMap": "航天基地",
+							"usePlace": "航天基地-中控区",
+							"durability": 40
+						}
+					},
+					{
+						"id": 10039,
+						"objectID": 15050200009,
+						"objectName": "员工通道",
+						"length": 1,
+						"width": 1,
+						"grade": 4,
+						"weight": "0",
+						"primaryClass": "props",
+						"secondClass": "key",
+						"secondClassCN": "钥匙",
+						"desc": "用于开启员工通道的钥匙。",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/key/航天基地白卡.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/key/p_航天基地白卡.png",
+						"propsDetail": {
+							"useMap": "航天基地",
+							"usePlace": "航天基地-员工通道",
+							"durability": 40
+						}
+					},
+					{
+						"id": 10040,
+						"objectID": 15050200010,
+						"objectName": "组装车间二楼实验室",
+						"length": 1,
+						"width": 1,
+						"grade": 4,
+						"weight": "0",
+						"primaryClass": "props",
+						"secondClass": "key",
+						"secondClassCN": "钥匙",
+						"desc": "用于开启组装车间二楼实验室的钥匙。",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/key/航天基地白卡.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/key/p_航天基地白卡.png",
+						"propsDetail": {
+							"useMap": "航天基地",
+							"usePlace": "航天基地-蓝室",
+							"durability": 40
+						}
+					},
+					{
+						"id": 10041,
+						"objectID": 15050200011,
+						"objectName": "蓝室玻璃房",
+						"length": 1,
+						"width": 1,
+						"grade": 4,
+						"weight": "0.05",
+						"primaryClass": "props",
+						"secondClass": "key",
+						"secondClassCN": "钥匙",
+						"desc": "用于开启蓝室玻璃房的钥匙。",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/key/航天基地白卡.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/key/p_航天基地白卡.png",
+						"propsDetail": {
+							"useMap": "航天基地",
+							"usePlace": "航天基地-蓝室",
+							"durability": 40
+						}
+					},
+					{
+						"id": 10042,
+						"objectID": 15050200012,
+						"objectName": "3号宿舍里屋",
+						"length": 1,
+						"width": 1,
+						"grade": 4,
+						"weight": "0",
+						"primaryClass": "props",
+						"secondClass": "key",
+						"secondClassCN": "钥匙",
+						"desc": "用于开启3号宿舍里屋的钥匙。",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/key/航天基地白卡.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/key/p_航天基地白卡.png",
+						"propsDetail": {
+							"useMap": "航天基地",
+							"usePlace": "航天基地-宿舍区",
+							"durability": 40
+						}
+					},
+					{
+						"id": 10066,
+						"objectID": 15050300017,
+						"objectName": "雷达站会议室",
+						"length": 1,
+						"width": 1,
+						"grade": 4,
+						"weight": "0.05",
+						"primaryClass": "props",
+						"secondClass": "key",
+						"secondClassCN": "钥匙",
+						"desc": "用于开启雷达站的会议室",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/key/长弓溪谷白卡.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/key/p_长弓溪谷白卡.png",
+						"propsDetail": {
+							"useMap": "长弓溪谷",
+							"usePlace": "长弓溪谷-哈夫克雷达站",
+							"durability": 20
+						}
+					},
+					{
+						"id": 10067,
+						"objectID": 15050300025,
+						"objectName": "运输机会议室",
+						"length": 1,
+						"width": 1,
+						"grade": 4,
+						"weight": "0.05",
+						"primaryClass": "props",
+						"secondClass": "key",
+						"secondClassCN": "钥匙",
+						"desc": "用于开启运输机会议室的钥匙",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/key/长弓溪谷白卡.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/key/p_长弓溪谷白卡.png",
+						"propsDetail": {
+							"useMap": "长弓溪谷",
+							"usePlace": "长弓溪谷-坠机之地",
+							"durability": 20
+						}
+					},
+					{
+						"id": 10068,
+						"objectID": 15050300026,
+						"objectName": "小镇餐厅",
+						"length": 1,
+						"width": 1,
+						"grade": 4,
+						"weight": "0.05",
+						"primaryClass": "props",
+						"secondClass": "key",
+						"secondClassCN": "钥匙",
+						"desc": "用于开启小镇上锁的餐厅",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/key/长弓溪谷白卡.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/key/p_长弓溪谷白卡.png",
+						"propsDetail": {
+							"useMap": "长弓溪谷",
+							"usePlace": "长弓溪谷-阿米亚小镇",
+							"durability": 20
+						}
+					},
+					{
+						"id": 10950,
+						"objectID": 15050400007,
+						"objectName": "旅店员工休息室",
+						"length": 1,
+						"width": 1,
+						"grade": 4,
+						"weight": "0.05",
+						"primaryClass": "props",
+						"secondClass": "key",
+						"secondClassCN": "钥匙",
+						"desc": "用于开启旅店员工休息室",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/key/巴克什白卡.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/key/p_巴克什白卡.png",
+						"propsDetail": {
+							"useMap": "巴克什",
+							"usePlace": "巴克什-旅店",
+							"durability": 20
+						}
+					},
+					{
+						"id": 10951,
+						"objectID": 15050400008,
+						"objectName": "西城民宅卧室",
+						"length": 1,
+						"width": 1,
+						"grade": 4,
+						"weight": "0.05",
+						"primaryClass": "props",
+						"secondClass": "key",
+						"secondClassCN": "钥匙",
+						"desc": "用于开启西城民宅卧室",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/key/巴克什白卡.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/key/p_巴克什白卡.png",
+						"propsDetail": {
+							"useMap": "巴克什",
+							"usePlace": "巴克什-西城",
+							"durability": 20
+						}
+					},
+					{
+						"id": 10952,
+						"objectID": 15050400009,
+						"objectName": "东城民宅卧室",
+						"length": 1,
+						"width": 1,
+						"grade": 4,
+						"weight": "0.05",
+						"primaryClass": "props",
+						"secondClass": "key",
+						"secondClassCN": "钥匙",
+						"desc": "用于开启东城民宅卧室",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/key/巴克什白卡.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/key/p_巴克什白卡.png",
+						"propsDetail": {
+							"useMap": "巴克什",
+							"usePlace": "巴克什-东城",
+							"durability": 20
+						}
+					},
+					{
+						"id": 10953,
+						"objectID": 15050400010,
+						"objectName": "老浴场餐厅",
+						"length": 1,
+						"width": 1,
+						"grade": 4,
+						"weight": "0.05",
+						"primaryClass": "props",
+						"secondClass": "key",
+						"secondClassCN": "钥匙",
+						"desc": "用于开启老浴场餐厅",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/key/巴克什白卡.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/key/p_巴克什白卡.png",
+						"propsDetail": {
+							"useMap": "巴克什",
+							"usePlace": "巴克什-老浴场",
+							"durability": 20
+						}
+					},
+					{
+						"id": 10049,
+						"objectID": 15050100009,
+						"objectName": "变电站宿舍",
+						"length": 1,
+						"width": 1,
+						"grade": 3,
+						"weight": "0.05",
+						"primaryClass": "props",
+						"secondClass": "key",
+						"secondClassCN": "钥匙",
+						"desc": "用于开启变电站宿舍的钥匙。",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/key/零号大坝白卡.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/key/p_零号大坝白卡.png",
+						"propsDetail": {
+							"useMap": "零号大坝",
+							"usePlace": "零号大坝-变电站",
+							"durability": 20
+						}
+					},
+					{
+						"id": 10050,
+						"objectID": 15050100011,
+						"objectName": "西楼医务室",
+						"length": 1,
+						"width": 1,
+						"grade": 3,
+						"weight": "0.05",
+						"primaryClass": "props",
+						"secondClass": "key",
+						"secondClassCN": "钥匙",
+						"desc": "用于开启西楼医务室的钥匙。",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/key/零号大坝白卡.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/key/p_零号大坝白卡.png",
+						"propsDetail": {
+							"useMap": "零号大坝",
+							"usePlace": "零号大坝-行政楼",
+							"durability": 20
+						}
+					},
+					{
+						"id": 10051,
+						"objectID": 15050100021,
+						"objectName": "东楼杂货间",
+						"length": 1,
+						"width": 1,
+						"grade": 3,
+						"weight": "0.05",
+						"primaryClass": "props",
+						"secondClass": "key",
+						"secondClassCN": "钥匙",
+						"desc": "用于开启东楼杂货间的钥匙。",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/key/零号大坝白卡.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/key/p_零号大坝白卡.png",
+						"propsDetail": {
+							"useMap": "零号大坝",
+							"usePlace": "零号大坝-行政楼",
+							"durability": 20
+						}
+					},
+					{
+						"id": 10062,
+						"objectID": 15050300021,
+						"objectName": "雷达侧门钥匙",
+						"length": 1,
+						"width": 1,
+						"grade": 3,
+						"weight": "0.05",
+						"primaryClass": "props",
+						"secondClass": "key",
+						"secondClassCN": "钥匙",
+						"desc": "用于开启雷达侧门钥匙的钥匙",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/key/长弓溪谷白卡.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/key/p_长弓溪谷白卡.png",
+						"propsDetail": {
+							"useMap": "长弓溪谷",
+							"usePlace": "长弓溪谷-哈夫克雷达站",
+							"durability": 20
+						}
+					},
+					{
+						"id": 10063,
+						"objectID": 15050300029,
+						"objectName": "检查站库房",
+						"length": 1,
+						"width": 1,
+						"grade": 3,
+						"weight": "0.05",
+						"primaryClass": "props",
+						"secondClass": "key",
+						"secondClassCN": "钥匙",
+						"desc": "用于开启检查站库房钥匙",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/key/长弓溪谷白卡.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/key/p_长弓溪谷白卡.png",
+						"propsDetail": {
+							"useMap": "长弓溪谷",
+							"usePlace": "长弓溪谷-检查站",
+							"durability": 20
+						}
+					},
+					{
+						"id": 10064,
+						"objectID": 15050300031,
+						"objectName": "牧场管理房",
+						"length": 1,
+						"width": 1,
+						"grade": 3,
+						"weight": "0.05",
+						"primaryClass": "props",
+						"secondClass": "key",
+						"secondClassCN": "钥匙",
+						"desc": "用于开启牧场管理房的钥匙",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/key/长弓溪谷白卡.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/key/p_长弓溪谷白卡.png",
+						"propsDetail": {
+							"useMap": "长弓溪谷",
+							"usePlace": "长弓溪谷-沙径牧场",
+							"durability": 20
+						}
+					},
+					{
+						"id": 10065,
+						"objectID": 15050300033,
+						"objectName": "铁脊车站售票室",
+						"length": 1,
+						"width": 1,
+						"grade": 3,
+						"weight": "0.05",
+						"primaryClass": "props",
+						"secondClass": "key",
+						"secondClassCN": "钥匙",
+						"desc": "用于开启铁脊车站的售票处",
+						"pic": "https://playerhub.df.qq.com/playerhub/60004/object/key/长弓溪谷白卡.png",
+						"prePic": "https://playerhub.df.qq.com/playerhub/60004/object/key/p_长弓溪谷白卡.png",
+						"propsDetail": {
+							"useMap": "长弓溪谷",
+							"usePlace": "长弓溪谷-小火车站",
+							"durability": 20
+						}
+					}
+				]
+			},
+			"msg": "ok"
+		}
+	},
+	"sAmsSerial": "AMS-DFM-1114121048-nuvGjr-661959-316968"
+}
