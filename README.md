@@ -6,6 +6,7 @@
 ## 预览
 
 [https://df.vinda.top](https://df.vinda.top)
+[https://deltaforcedata.pages.dev/](https://deltaforcedata.pages.dev/)
 
 ## 目录
 
