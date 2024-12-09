@@ -8,7 +8,8 @@
       <div class="search">
         <h3 class="tt">小学生DeltaForce</h3>
         <div class="line">
-          <input v-model="searchValue" type="text" placeholder="搜索物品名称">
+          <!-- 鼠标回车  -->
+          <input @keyup.enter="onsearch" v-model="searchValue" type="text" placeholder="搜索物品名称">
           <div class="sbtn" @click="onsearch">搜索</div>
         </div>
       </div>
@@ -19,12 +20,13 @@
             <p>{{ item.name }}</p>
           </li>
           <ul class="child">
-            <li v-for="child in item.children" @click="changeType(child)">{{ child.name }}</li>
+            <li v-for="child in item.children" :class="{ act: child.name === acname }" @click="changeType(child)">{{
+              child.name }}</li>
           </ul>
           </li>
         </ul>
         <ul class="objectList">
-          <li data-aos="fade-up" data-aos-duration="100" :data-aos-delay="(index % 5) * 100"
+          <li data-aos="fade-up" data-aos-duration="300" :data-aos-delay="(index % 6) * 100"
             v-for="(item, index) in filteredItems" :key="item.id" :class="`L${item.grade}`">
             <div class="image">
               <img v-lazy="item.pic" width="50" height="50">
@@ -32,7 +34,7 @@
             <div class="info">
               <h3>{{ item.objectName }}</h3>
               <div class="taglist">
-                <span v-for="(tag, index) in getRowTag(item)" class="tag">{{ tag.name }}</span>
+                <span :data-in="item.style" v-for="(tag, index) in getRowTag(item)" class="tag">{{ tag.name }}</span>
               </div>
               <p> {{ item.desc }}</p>
             </div>
@@ -57,6 +59,7 @@ const backToTopButton = ref(false)
 const vshowloading = ref(false)
 const loadingJsName = ref('')
 const searchValue = ref('')
+const acname = ref('消耗品')
 let treeList = [
   {
     "name": "道具",
@@ -155,12 +158,14 @@ function onsearch() {
 }
 
 function changeType(row) {
+  acname.value = row.name
   filteredItems.value = allData[row.type]
 }
 let objectMap = {
   availableCount: {
     label: '可用次数',
-    unit: '次'
+    unit: '次',
+
   },
   activeTime: {
     label: '启用时间',
@@ -190,7 +195,9 @@ let objectMap = {
   },
   activeTime: {
     label: '启用时间',
-    unit: '秒'
+    unit: '秒',
+    style: `    background-color: #ffcc81;
+    color: #70500d;`
   }
 
 }
@@ -219,7 +226,8 @@ function getRowTag(row) {
       let name = (objectMap[item].label || '') + obj[item] + (objectMap[item].unit || '')
       name = name.replace(/秒秒/, '秒')
       list.push({
-        name: name
+        name: name,
+        style: objectMap[item].style || ''
       })
     }
   })
@@ -287,7 +295,6 @@ loadScript()
 
   .ner {
     background-color: #f4f4f4;
-    overflow: hidden;
 
     .search {
       height: 200px;
@@ -304,6 +311,8 @@ loadScript()
         position: absolute;
         top: 20px;
         font-size: 24px;
+        color: #45f79b;
+        font-weight: bold;
       }
 
       .line {
@@ -347,39 +356,53 @@ loadScript()
 
     .searchContent {
       display: flex;
-      padding-top: 40px;
-
+      padding: 10px;
 
       .nav {
+        position: sticky;
+        top: 15px;
+        bottom: 15px;
         width: 300px;
         flex-shrink: 0;
-        margin-right: 20px;
+        background-color: #fff;
+        border-radius: 16px;
+        margin-right: 10px;
+        padding: 20px;
+        height: calc(100vh - 20px);
 
         &>li {
           font-size: 14px;
-          padding: 5px;
           text-transform: uppercase;
           cursor: pointer;
 
-
           p {
             background-color: #FFFFFF;
-            padding: 5px 20px;
-            font-size: 18px;
-            font-family: 'OPPO Sans Medium';
+            font-size: 12px;
+            font-family: 'OPPO Sans Regular';
             border-radius: 5px;
+            color: #a2a2a2;
+            height: 30px;
+            line-height: 30px;
+            padding: 0px 20px;
           }
 
           .child {
-            margin-left: 20px;
 
             li {
-              padding: 5px;
               font-size: 14px;
+              line-height: 28px;
+              padding: 5px 20px;
+              transition: 0.1s;
+              border-radius: 5px;
+
+              &.act {
+                background-color: #2e67fb;
+                color: #fff;
+              }
 
               &:hover {
-                background-color: #3a749f;
-
+                background-color: #d5d5d570;
+                color: #0085ef;
               }
             }
           }
@@ -394,7 +417,6 @@ loadScript()
         grid-auto-rows: min-content;
         /* 行高自适应 */
         gap: 15px;
-        padding: 20px;
 
         /* 项目之间的间隙 */
         li {
@@ -427,8 +449,8 @@ loadScript()
             padding: 5px 10px;
             border-radius: 3px;
             font-family: '新宋体';
-            background-color: #f0e3fe;
-            color: #280773;
+            background-color: #346bf826;
+            color: #0f3caf;
           }
 
           .image {

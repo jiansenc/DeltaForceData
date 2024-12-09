@@ -7,12 +7,26 @@
 		<title>DeltaForce</title>
 		<link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
 		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+		<script src="https://unpkg.com/lenis@latest/dist/lenis.min.js"></script>
 	</head>
 	<body>
 		<div id="app"></div>
 		<script type="module" src="/src/main.js"></script>
 		<script>
 			AOS.init()
+			const lenis = new Lenis({
+				smoothWheel: true,
+				lerp: 0.2,
+				orientation: horizontal,
+				wheelMultiplier: 1.5
+			})
+
+			function raf(time) {
+				lenis.raf(time)
+				requestAnimationFrame(raf)
+			}
+
+			requestAnimationFrame(raf)
 		</script>
 	</body>
 </html>
