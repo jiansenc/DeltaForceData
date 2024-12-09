@@ -20,8 +20,9 @@
             <p>{{ item.name }}</p>
           </li>
           <ul class="child">
-            <li v-for="child in item.children" :class="{ act: child.name === acname }" @click="changeType(child)">{{
-              child.name }}</li>
+            <li v-for="child in item.children" :key="child.name" :class="{ act: child.name === acname }"
+              @click="changeType(child)">{{
+                child.name }}</li>
           </ul>
           </li>
         </ul>
@@ -379,6 +380,7 @@ loadScript()
         margin-right: 10px;
         padding: 20px;
         height: calc(100vh - 20px);
+        overflow: auto;
 
         &>li {
           font-size: 14px;
@@ -400,10 +402,11 @@ loadScript()
 
             li {
               font-size: 14px;
-              line-height: 28px;
+              line-height: 18px;
               padding: 5px 20px;
               transition: 0.1s;
               border-radius: 5px;
+              margin-bottom: 5px;
 
               &.act {
                 background-color: #2e67fb;
@@ -435,6 +438,12 @@ loadScript()
           padding: 20px;
           position: relative;
           box-shadow: 2px 2px 3px rgb(0 0 0 / 2%);
+          max-width: 400px;
+          transition: 0.5s;
+
+          &:hover {
+            box-shadow: 1px 3px 10px #0000001a;
+          }
 
           &::before {
             content: '';
@@ -525,5 +534,34 @@ loadScript()
     }
   }
 
+}
+
+
+
+.nav {
+  --sb-track-color: #dadada;
+  --sb-thumb-color: #6186b1;
+  --sb-size: 3px;
+}
+
+.nav::-webkit-scrollbar {
+  width: var(--sb-size)
+}
+
+.nav::-webkit-scrollbar-track {
+  background: var(--sb-track-color);
+  border-radius: 3px;
+}
+
+.nav::-webkit-scrollbar-thumb {
+  background: var(--sb-thumb-color);
+  border-radius: 3px;
+
+}
+
+@supports not selector(::-webkit-scrollbar) {
+  .nav {
+    scrollbar-color: var(--sb-thumb-color) var(--sb-track-color);
+  }
 }
 </style>
