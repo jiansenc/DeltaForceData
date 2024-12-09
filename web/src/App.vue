@@ -159,7 +159,16 @@ function onsearch() {
 
 function changeType(row) {
   acname.value = row.name
-  filteredItems.value = allData[row.type]
+  loadingJsName.value = `正在加载${row.name}..`
+  vshowloading.value = true
+
+  setTimeout(() => {
+    vshowloading.value = false
+  }, 500)
+  setTimeout(() => {
+    filteredItems.value = allData[row.type]
+    gotop()
+  }, 300)
 }
 let objectMap = {
   availableCount: {
@@ -282,6 +291,7 @@ loadScript()
   font-weight: bold;
   background-color: #FFFFFF;
   transition: 0.3s;
+  z-index: 3;
 
   &:hover {
     background-color: #2364c0;

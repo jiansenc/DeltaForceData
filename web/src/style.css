@@ -13,7 +13,9 @@
 	font-weight: normal; /* 或 500，根据需要设置 */
 	font-style: normal;
 }
-
+html {
+	scroll-behavior: smooth;
+}
 body {
 	--sb-track-color: #c3c3c3;
 	--sb-thumb-color: #13c17c;
