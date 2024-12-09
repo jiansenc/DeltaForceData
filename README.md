@@ -5,9 +5,7 @@
 
 ## 预览
 
-- 预览 1：[https://df.vinda.top](https://df.vinda.top)
-- 预览 2：[https://deltaforcedata.pages.dev](https://deltaforcedata.pages.dev)
-- 预览 3：[jiansenc.github.io/DeltaForceData](jiansenc.github.io/DeltaForceData)
+- 预览：[https://jiansenc.github.io/DeltaForceData/](https://jiansenc.github.io/DeltaForceData/)
 
 ## 目录
 
