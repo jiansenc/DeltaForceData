@@ -1,3 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 @font-face {
 	font-family: 'OPPO Sans Medium'; /* 你可以为字体选择任何名称 */
 	src: url('https://dsfs.oppo.com/store/public/font/OPPOSans-Medium.woff2')

@@ -14,33 +14,53 @@
         </div>
       </div>
       <div class="searchContent">
-        <ul class="nav">
+        <ul class="nav shadow-sm">
           <li v-for="(item, index) in treeList" :key="index">
-          <li>
             <p>{{ item.name }}</p>
-          </li>
-          <ul class="child">
-            <li v-for="child in item.children" :key="child.name" :class="{ act: child.name === acname }"
-              @click="changeType(child)">{{
-                child.name }}</li>
-          </ul>
+            <ul class="child">
+              <li v-for="child in item.children" :key="child.type" :class="{ act: child.type === classification }"
+                @click="changeType(child)">{{
+                  child.name }}</li>
+            </ul>
           </li>
         </ul>
-        <ul class="objectList">
-          <li data-aos="fade-up" data-aos-duration="300" :data-aos-delay="(index % 6) * 100"
-            v-for="(item, index) in filteredItems" :key="item.id" :class="`L${item.grade}`">
-            <div class="image">
-              <img v-lazy="item.pic" width="50" height="50">
-            </div>
-            <div class="info">
-              <h3>{{ item.objectName }}</h3>
-              <div class="taglist">
-                <span :data-in="item.style" v-for="(tag, index) in getRowTag(item)" class="tag">{{ tag.name }}</span>
+        <div class=" w-full">
+          <div class="filters">
+
+            <el-popover trigger="click">
+              <template #reference>
+                <el-badge :value="filters.grades.length" :show-zero="false">
+                  <el-button size="large" type="default"><i class="bi bi-funnel mr-1"></i> 物品等级</el-button>
+                </el-badge>
+              </template>
+              <el-checkbox-group @change="changeGrades" v-model="filters.grades" class="itemColor">
+                <el-checkbox :label="item.grade" v-for="(item, index) in colorFiltersList" :key="index">
+                  <div class="checkitem" :class="item.class">
+                    <i :class="item.icon" class=" mr-2"></i>
+                    <span>{{ item.name }}</span>
+                  </div>
+                </el-checkbox>
+              </el-checkbox-group>
+
+            </el-popover>
+
+          </div>
+          <ul class="objectList">
+            <li data-aos="fade-up" data-aos-duration="300" :data-aos-delay="(index % 6) * 100"
+              v-for="(item, index) in filteredItems" :key="item.id" :class="`shadow-sm L${item.grade}`">
+              <div class="image">
+                <img v-lazy="item.pic" width="50" height="50">
               </div>
-              <p> {{ item.desc }}</p>
-            </div>
-          </li>
-        </ul>
+              <div class="info">
+                <h3>{{ item.objectName }}</h3>
+                <div class="taglist">
+                  <span :data-in="item.style" v-for="(tag, index) in getRowTag(item)" class="tag">{{ tag.name }}</span>
+                </div>
+                <p> {{ item.desc }}</p>
+              </div>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
 
@@ -52,7 +72,7 @@
   </div>
 </template>
 <script setup>
-import { ref } from 'vue'
+import { reactive, ref } from 'vue'
 const filteredItems = ref([])
 import Fuse from 'fuse.js'
 
@@ -60,7 +80,21 @@ const backToTopButton = ref(false)
 const vshowloading = ref(false)
 const loadingJsName = ref('')
 const searchValue = ref('')
-const acname = ref('消耗品')
+// const acname = ref('消耗品')
+const classification = ref('consume')
+const filters = reactive({
+  grades: []
+})
+
+const colorFiltersList = ref([
+  { name: '红色', class: 'text-red-700', grade: 6, icon: 'bi bi-6-square' },
+  { name: '金色', class: 'text-yellow-600', grade: 5, icon: 'bi bi-5-square' },
+  { name: '紫色', class: 'text-purple-600', grade: 4, icon: 'bi bi-4-square' },
+  { name: '蓝色', class: 'text-blue-700', grade: 3, icon: 'bi bi-3-square' },
+  { name: '绿色', class: 'text-green-600', grade: 2, icon: 'bi bi-2-square' },
+  { name: '灰色', class: 'text-gray-700', grade: 1, icon: 'bi bi-1-square' }
+
+])
 let treeList = [
   {
     "name": "道具",
@@ -135,6 +169,17 @@ async function loadScript() {
 
 }
 
+function changeGrades(arr) {
+  console.log(arr)
+  if (arr.length === 0) {
+    filteredItems.value = allData[row.type]
+    return
+  }
+  filteredItems.value = allData[classification.value].filter(item => {
+    return arr.includes(item.grade)
+  })
+}
+
 function loadCompleted() {
   loadingJsName.value = `准备加载完成..`
   vshowloading.value = false
@@ -157,14 +202,17 @@ function onsearch() {
   let result = fuse.search(searchValue.value)
   filteredItems.value = result.map(item => item.item)
 }
-
+function resetFilter() {
+  filters.grades = []
+}
 function changeType(row) {
-  acname.value = row.name
+  resetFilter()
+  classification.value = row.type
   loadingJsName.value = `🔨正在准备数据..`
   vshowloading.value = true
   setTimeout(() => {
     vshowloading.value = false
-  }, 300)
+  }, 1000)
   filteredItems.value = allData[row.type]
   gotop()
 }
@@ -441,7 +489,6 @@ loadScript()
           overflow: hidden;
           padding: 20px;
           position: relative;
-          box-shadow: 2px 2px 3px rgb(0 0 0 / 2%);
           max-width: 400px;
           transition: 0.5s;
 
@@ -540,7 +587,47 @@ loadScript()
 
 }
 
+.filters {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
 
+.itemColor {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  li {
+    display: flex;
+    width: 80px;
+    height: 80px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+
+    .checkitem {
+      display: flex;
+    }
+
+    p {
+      font-size: 12px;
+      margin-top: 2px;
+    }
+
+    i {
+      font-size: 22px;
+    }
+
+    &:hover {
+      background-color: #0000000f;
+    }
+  }
+}
 
 .nav {
   --sb-track-color: #dadada;
