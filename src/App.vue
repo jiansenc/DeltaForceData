@@ -106,7 +106,10 @@ let treeList = [
 var fuse = {}
 let allData = {}
 let allList = []
-
+let loadJsCount = {
+  total: 0,
+  loaded: 0,
+}
 window.addEventListener('scroll', () => {
   if (window.scrollY > 700) { // 调整 100 为您需要的像素值
     backToTopButton.value = true
@@ -120,24 +123,21 @@ function gotop() {
   window.scrollTo(0, 0)
 }
 async function loadScript() {
+  loadingJsName.value = `🔨正在准备数据..`
   vshowloading.value = true
   for (let i = 0; i < treeList.length; i++) {
+    loadJsCount.total = loadJsCount.total + treeList[i].children.length
     for (let j = 0; j < treeList[i].children.length; j++) {
-
       let item = treeList[i].children[j]
-
-      loadingJsName.value = `正在加载 ${treeList[i].name}-${item.name}..`
-      let list = await getJsonData(item)
-      allData[item.type] = list
-      loadingJsName.value = `...`
-      allList = allList.concat(list)
+      getJsonData(item)
     }
   }
-  loadingJsName.value = `准备加载完成..`
-  setTimeout(() => {
-    vshowloading.value = false
-  }, 1 * 1000);
 
+}
+
+function loadCompleted() {
+  loadingJsName.value = `准备加载完成..`
+  vshowloading.value = false
   const fuseOptions = {
     keys: [
       "objectName",
@@ -160,16 +160,13 @@ function onsearch() {
 
 function changeType(row) {
   acname.value = row.name
-  loadingJsName.value = `正在加载${row.name}..`
+  loadingJsName.value = `🔨正在准备数据..`
   vshowloading.value = true
-
   setTimeout(() => {
     vshowloading.value = false
-  }, 500)
-  setTimeout(() => {
-    filteredItems.value = allData[row.type]
-    gotop()
   }, 300)
+  filteredItems.value = allData[row.type]
+  gotop()
 }
 let objectMap = {
   availableCount: {
@@ -248,7 +245,14 @@ async function getJsonData(row) {
   let res = await fetch(row.path).then(response => {
     return response.json();
   })
-  return res.jData.data.data.list
+  let list = res.jData.data.data.list
+  allData[row.type] = list
+  loadingJsName.value = `...`
+  allList = allList.concat(list)
+  loadJsCount.loaded += 1
+  if (loadJsCount.loaded === loadJsCount.total) {
+    loadCompleted()
+  }
 }
 loadScript()
 </script>

@@ -14,19 +14,6 @@
 		<script type="module" src="/src/main.js"></script>
 		<script>
 			AOS.init()
-			const lenis = new Lenis({
-				smoothWheel: true,
-				lerp: 0.2,
-				orientation: 'horizontal',
-				wheelMultiplier: 1.5
-			})
-
-			function raf(time) {
-				lenis.raf(time)
-				requestAnimationFrame(raf)
-			}
-
-			requestAnimationFrame(raf)
 		</script>
 	</body>
 </html>
